@@ -54,13 +54,19 @@ namespace Menu
                 }
             } while (tecla.Key != ConsoleKey.D0);
         }
-
+        /// <summary>
+        /// Shows a message and waits for a key to be pressed.
+        /// </summary>
+        /// <param name="msg"></param>
         private static void MsgNextScreen(string msg = "Press any key to go to the main menu")
         {
             Console.WriteLine(msg);
             Console.ReadKey();
         }
-
+        
+        /// <summary>
+        /// Checks if the entered year is a leap year or not
+        /// </summary>
         static void DoLeap()
         {
             int year;
@@ -79,7 +85,15 @@ namespace Menu
                 MsgNextScreen();
             }
         }
+        /// <summary>
+        /// Calculations for checking if it's a leap year
+        /// </summary>
+        /// <param name="year">the year to check</param>
+        /// <returns>True if it's a leap year</returns>
         static bool IsLeapYear(int year) { return year % 4 == 0 && year % 100 != 0 || year % 400 == 0; }
+        /// <summary>
+        /// Asks for a number to check if it's odd or even
+        /// </summary>
         static void DoOddOrEven()
         {
             int number;
@@ -99,12 +113,18 @@ namespace Menu
                 MsgNextScreen();
             }
         }
-
+        /// <summary>
+        /// Calculations to check if the number is odd or even
+        /// </summary>
+        /// <param name="number">the number to check</param>
+        /// <returns>string + if it's odd or even</returns>
         private static string? CheckForOddOrEven(int number)
         {
             return number % 2 == 0 ? $"{number} is an odd number" : $"{number} is an even number";
         }
-
+        /// <summary>
+        /// Checks for a valid time one time
+        /// </summary>
         static void DoTry2ReadValidTimeStamp()
         {
             int time;
@@ -130,16 +150,26 @@ namespace Menu
                 MsgNextScreen();
             }
         }
-
+        /// <summary>
+        /// Calculations to detect if it's a valid time or not
+        /// </summary>
+        /// <param name="h">hours</param>
+        /// <param name="m">minutes</param>
+        /// <param name="s">seconds</param>
+        /// <returns>true if it's a valid time</returns>
         private static bool ValidTime(int h, int m, int s) { return h is >= 0 and <= 23 && m is >= 0 and <= 59 && s is >= 0 and <= 59; }
-
+        
         static void DoReadAValidTimeStamp()
         {
             string time = ReadTime();
             Console.WriteLine($"{time} is a valid timestamp for sure!");
             MsgNextScreen("Press a key to go to the main menu");
         }
-
+        /// <summary>
+        /// Checks for a valid time until it results true
+        /// </summary>
+        /// <returns>Valid time in correct format hh:mm:ss</returns>
+        /// <exception cref="Exception"></exception>
         private static string ReadTime()
         {
             int time = 0;
@@ -168,7 +198,9 @@ namespace Menu
 
             return $"{h:00}{m:00}{s:00}";
         }
-
+        /// <summary>
+        /// Tries to read a valid date one time
+        /// </summary>
         static void DoTry2EnterValidDate()
         {
             int date;
@@ -195,6 +227,14 @@ namespace Menu
                 MsgNextScreen();
             }
         }
+        /// <summary>
+        /// Checks if the date entered is a correct date or not
+        /// </summary>
+        /// <param name="day"></param>
+        /// <param name="month"></param>
+        /// <param name="year"></param>
+        /// <returns>True if it's a valid date</returns>
+        /// <exception cref="Exception"></exception>
         static bool CheckForCorrectDate(int day, int month, int year)
         {
             bool correctTime;
@@ -215,13 +255,18 @@ namespace Menu
             }
             return correctTime;
         }
+        
         static void DoEnterValidDate()
         {
             string date = ReadDate();
             Console.WriteLine($"{date} is a valid date for sure!!");
             MsgNextScreen();
         }
-
+        /// <summary>
+        /// Asks for a date until its valid
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         private static string ReadDate()
         {
             int date;
@@ -250,14 +295,17 @@ namespace Menu
 
             return $"{day:00}{month:00}{year:00}";
         }
-
+        
         static void DoMCD()
         {
             int[] mcd = ReadValues();
             Console.WriteLine($"The MCD of the values {mcd[0]} and {mcd[1]} is {mcd[2]}");
             MsgNextScreen("Press any key to return to the menu");
         }
-
+        /// <summary>
+        /// Reads the values for 2 numbers and calculates the mcd
+        /// </summary>
+        /// <returns>Array with 3 values: 1st number, 2nd number and mcd</returns>
         private static int[] ReadValues()
         {
             int[] values = new int[3];
@@ -286,7 +334,9 @@ namespace Menu
             }
             return values;
         }
-
+        /// <summary>
+        /// Asks for two years until the second one is higher than the first one
+        /// </summary>
         static void DoGenerateHulukuluBulukulu()
         {
             try
@@ -320,23 +370,27 @@ namespace Menu
                 MsgNextScreen();
             }
         }
+        /// <summary>
+        /// Does the calculations to check if it's a Hulukulu year
+        /// </summary>
+        /// <param name="year">the year to check</param>
+        /// <returns>true if it's a Bulukulu year</returns>
         public static bool IsHulukuluYear(int year) { return year % 15 == 0; }
-
+        
+        /// <summary>
+        /// Does the calculations to check if it's a Bulukulu year
+        /// </summary>
+        /// <param name="year">the year to check</param>
+        /// <returns>true if it's a Bulukulu year</returns>
         public static bool IsBulukuluYear(int year) { return IsLeapYear(year) && year % 55 == 0; }
-
+        
         static void DoSumOfDigits()
         {
             Console.WriteLine("Enter an integer greater than 0 to sum all the digits → ");
             try
             {
                 int number = Convert.ToInt32(Console.ReadLine());
-                int aux = number;
-                int sum = 0;
-                while (aux > 0)
-                {
-                    sum += aux % 10;
-                    aux /= 10;
-                }
+                int sum = SumOfDigits(number);
                 Console.WriteLine($"The sum of all the numbers of {number} is {sum}");
 
             }
@@ -350,7 +404,27 @@ namespace Menu
                 MsgNextScreen();
             }
         }
+        /// <summary>
+        /// Sums all the digits from a number
+        /// </summary>
+        /// <param name="number">The number to sum all the digits</param>
+        /// <returns>The sum of the digits</returns>
+        static int SumOfDigits(int number)
+        {
+            int aux = number;
+            int sum = 0;
+            while (aux > 0)
+            {
+                sum += aux % 10;
+                aux /= 10;
+            }
 
+            return sum;
+        }
+        /// <summary>
+        /// Asks for a name file and sums all the digits from that one.
+        /// (The file should be in the correct format)
+        /// </summary>
         static void AverageOfDataFile()
         {
             Console.WriteLine("Enter the name of the file without extension →");
@@ -377,6 +451,9 @@ namespace Menu
                 MsgNextScreen();
             }
         }
+        /// <summary>
+        /// Shows the options of the menu
+        /// </summary>
         static void ShowOptions()
         {
             Console.Clear();

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aitorsansal\\DAM1\\Programming\\UF2\\Llista3\\Menu\\Menu.csproj": {}
+    "D:\\Dam1_Programacio\\UF2\\Llista3\\Menu\\Menu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aitorsansal\\DAM1\\Programming\\UF2\\Llista3\\Menu\\Menu.csproj": {
+    "D:\\Dam1_Programacio\\UF2\\Llista3\\Menu\\Menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aitorsansal\\DAM1\\Programming\\UF2\\Llista3\\Menu\\Menu.csproj",
+        "projectUniqueName": "D:\\Dam1_Programacio\\UF2\\Llista3\\Menu\\Menu.csproj",
         "projectName": "Menu",
-        "projectPath": "C:\\Users\\aitorsansal\\DAM1\\Programming\\UF2\\Llista3\\Menu\\Menu.csproj",
-        "packagesPath": "C:\\Users\\aitorsansal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aitorsansal\\DAM1\\Programming\\UF2\\Llista3\\Menu\\obj\\",
+        "projectPath": "D:\\Dam1_Programacio\\UF2\\Llista3\\Menu\\Menu.csproj",
+        "packagesPath": "C:\\Users\\TiaSanchez\\.nuget\\packages\\",
+        "outputPath": "D:\\Dam1_Programacio\\UF2\\Llista3\\Menu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aitorsansal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TiaSanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

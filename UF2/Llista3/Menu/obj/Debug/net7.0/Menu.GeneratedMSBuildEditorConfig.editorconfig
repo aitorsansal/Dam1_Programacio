@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Menu
-build_property.ProjectDir = C:\Users\aitorsansal\DAM1\Programming\UF2\Llista3\Menu\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Dam1_Programacio\UF2\Llista3\Menu\
