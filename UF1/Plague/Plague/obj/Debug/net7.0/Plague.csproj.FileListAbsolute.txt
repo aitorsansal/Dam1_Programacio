@@ -1,0 +1,15 @@
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\bin\Debug\net7.0\Plague.exe
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\bin\Debug\net7.0\plague.txt
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\bin\Debug\net7.0\Plague.deps.json
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\bin\Debug\net7.0\Plague.runtimeconfig.json
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\bin\Debug\net7.0\Plague.dll
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\bin\Debug\net7.0\Plague.pdb
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\obj\Debug\net7.0\Plague.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\obj\Debug\net7.0\Plague.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\obj\Debug\net7.0\Plague.AssemblyInfo.cs
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\obj\Debug\net7.0\Plague.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\obj\Debug\net7.0\Plague.dll
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\obj\Debug\net7.0\refint\Plague.dll
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\obj\Debug\net7.0\Plague.pdb
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\obj\Debug\net7.0\Plague.genruntimeconfig.cache
+C:\Users\aitorsansal\RiderProjects\Plague\Plague\obj\Debug\net7.0\ref\Plague.dll

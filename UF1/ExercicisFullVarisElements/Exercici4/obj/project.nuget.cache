@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "WnVYmux3+u0VI2o75OT/jIKtxdVU1arPcIdzNNUlxdiU3/IPMKfoNpj42cvEylkdnBUgUAP0QtvnTlIMHgXlhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aitorsansal\\RiderProjects\\ExercicisFullVarisElements\\Exercici4\\Exercici4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aitorsansal\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\aitorsansal\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\aitorsansal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\aitorsansal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

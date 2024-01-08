@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercici Voids", "Exercici Voids\Exercici Voids.csproj", "{D332FD72-6957-4424-9424-9A88F2F72707}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D332FD72-6957-4424-9424-9A88F2F72707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D332FD72-6957-4424-9424-9A88F2F72707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D332FD72-6957-4424-9424-9A88F2F72707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D332FD72-6957-4424-9424-9A88F2F72707}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35F30D2D-0776-4C2F-97D6-8FDE318FC40C}
+	EndGlobalSection
+EndGlobal

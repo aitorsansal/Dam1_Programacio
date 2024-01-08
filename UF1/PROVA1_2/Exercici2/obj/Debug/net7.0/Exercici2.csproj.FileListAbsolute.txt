@@ -1,0 +1,14 @@
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\bin\Debug\net7.0\Exercici2.exe
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\bin\Debug\net7.0\Exercici2.deps.json
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\bin\Debug\net7.0\Exercici2.runtimeconfig.json
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\bin\Debug\net7.0\Exercici2.dll
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\bin\Debug\net7.0\Exercici2.pdb
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\obj\Debug\net7.0\Exercici2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\obj\Debug\net7.0\Exercici2.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\obj\Debug\net7.0\Exercici2.AssemblyInfo.cs
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\obj\Debug\net7.0\Exercici2.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\obj\Debug\net7.0\Exercici2.dll
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\obj\Debug\net7.0\refint\Exercici2.dll
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\obj\Debug\net7.0\Exercici2.pdb
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\obj\Debug\net7.0\Exercici2.genruntimeconfig.cache
+C:\Users\aitorsansal\RiderProjects\PROVA1_2\Exercici2\obj\Debug\net7.0\ref\Exercici2.dll

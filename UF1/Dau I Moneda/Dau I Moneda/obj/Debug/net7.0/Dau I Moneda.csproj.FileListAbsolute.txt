@@ -1,0 +1,14 @@
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\bin\Debug\net7.0\Dau I Moneda.exe
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\bin\Debug\net7.0\Dau I Moneda.deps.json
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\bin\Debug\net7.0\Dau I Moneda.runtimeconfig.json
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\bin\Debug\net7.0\Dau I Moneda.dll
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\bin\Debug\net7.0\Dau I Moneda.pdb
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\obj\Debug\net7.0\Dau I Moneda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\obj\Debug\net7.0\Dau I Moneda.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\obj\Debug\net7.0\Dau I Moneda.AssemblyInfo.cs
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\obj\Debug\net7.0\Dau I Moneda.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\obj\Debug\net7.0\Dau I Moneda.dll
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\obj\Debug\net7.0\refint\Dau I Moneda.dll
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\obj\Debug\net7.0\Dau I Moneda.pdb
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\obj\Debug\net7.0\Dau I Moneda.genruntimeconfig.cache
+C:\Users\aitorsansal\RiderProjects\Dau I Moneda\Dau I Moneda\obj\Debug\net7.0\ref\Dau I Moneda.dll

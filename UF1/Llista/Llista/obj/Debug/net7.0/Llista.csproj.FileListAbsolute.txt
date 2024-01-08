@@ -1,0 +1,14 @@
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\bin\Debug\net7.0\Llista.exe
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\bin\Debug\net7.0\Llista.deps.json
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\bin\Debug\net7.0\Llista.runtimeconfig.json
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\bin\Debug\net7.0\Llista.dll
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\bin\Debug\net7.0\Llista.pdb
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\obj\Debug\net7.0\Llista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\obj\Debug\net7.0\Llista.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\obj\Debug\net7.0\Llista.AssemblyInfo.cs
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\obj\Debug\net7.0\Llista.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\obj\Debug\net7.0\Llista.dll
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\obj\Debug\net7.0\refint\Llista.dll
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\obj\Debug\net7.0\Llista.pdb
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\obj\Debug\net7.0\Llista.genruntimeconfig.cache
+C:\Users\aitorsansal\RiderProjects\Llista\Llista\obj\Debug\net7.0\ref\Llista.dll

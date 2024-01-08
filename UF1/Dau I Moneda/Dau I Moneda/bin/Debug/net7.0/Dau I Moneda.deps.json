@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Dau I Moneda/1.0.0": {
+        "runtime": {
+          "Dau I Moneda.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dau I Moneda/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
