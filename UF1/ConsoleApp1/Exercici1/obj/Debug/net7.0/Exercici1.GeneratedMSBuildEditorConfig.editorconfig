@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Exercici1
-build_property.ProjectDir = C:\Users\aitorsansal\RiderProjects\ConsoleApp1\Exercici1\
+build_property.ProjectDir = C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF1\ConsoleApp1\Exercici1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

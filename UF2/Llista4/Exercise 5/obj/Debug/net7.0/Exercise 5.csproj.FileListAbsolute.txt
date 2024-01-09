@@ -1,0 +1,14 @@
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\bin\Debug\net7.0\Exercise 5.exe
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\bin\Debug\net7.0\Exercise 5.deps.json
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\bin\Debug\net7.0\Exercise 5.runtimeconfig.json
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\bin\Debug\net7.0\Exercise 5.dll
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\bin\Debug\net7.0\Exercise 5.pdb
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\obj\Debug\net7.0\Exercise 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\obj\Debug\net7.0\Exercise 5.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\obj\Debug\net7.0\Exercise 5.AssemblyInfo.cs
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\obj\Debug\net7.0\Exercise 5.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\obj\Debug\net7.0\Exercise 5.dll
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\obj\Debug\net7.0\refint\Exercise 5.dll
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\obj\Debug\net7.0\Exercise 5.pdb
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\obj\Debug\net7.0\Exercise 5.genruntimeconfig.cache
+C:\Users\aitorsansal\Programming\UF2\Llista4\Exercise 5\obj\Debug\net7.0\ref\Exercise 5.dll
