@@ -27,11 +27,10 @@
 
         public static int CheckForNumberOfEquals(int[] table, int value)
         {
-            int foundTimes = 0, i = 0;
-            while (i < table.Length)
+            int foundTimes = 0;
+            for(int i = 0; i < table.Length; i++)
             {
-                if (table[i] == value) foundTimes++;
-                i++;
+                if(table[i] == value) foundTimes++;
             }
             return foundTimes;
         }
