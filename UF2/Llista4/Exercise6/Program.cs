@@ -29,11 +29,16 @@
         public static int CheckPrize(char[] target, char[] win)
         {
             int correct = 0;
-            for (int i = 0; i < win.Length; i++)
+            int incrrect = 0;
+            int i = 0;
+            //for (int i = 0; i < win.Length; i++)
+            while(++i < win.Length && incrrect < 4)
             {
+                Console.WriteLine(i);
                 if (win[i] == target[i]) correct++;
+                else incrrect++;
             }
-            return correct < 11 ? 0: correct;
+            return incrrect >= 4 ? 0: correct;
         }
     }
 }
