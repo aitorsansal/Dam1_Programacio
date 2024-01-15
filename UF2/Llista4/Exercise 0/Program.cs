@@ -5,7 +5,6 @@
         private static void Main(string[] args)
         {
             const int MAX_TIMES = 5;
-            Random r = new();
             var data = GenerateRandomTable(500);
             for (int i = 0; i < MAX_TIMES; i++)
             {

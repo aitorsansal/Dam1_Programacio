@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\Exercise 1.csproj": {}
+    "D:\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\Exercise 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\Exercise 1.csproj": {
+    "D:\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\Exercise 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\Exercise 1.csproj",
+        "projectUniqueName": "D:\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\Exercise 1.csproj",
         "projectName": "Exercise 1",
-        "projectPath": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\Exercise 1.csproj",
-        "packagesPath": "C:\\Users\\aitorsansal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\obj\\",
+        "projectPath": "D:\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\Exercise 1.csproj",
+        "packagesPath": "C:\\Users\\TiaSanchez\\.nuget\\packages\\",
+        "outputPath": "D:\\Dam1_Programacio\\UF2\\Llista4\\Exercise 1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aitorsansal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TiaSanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

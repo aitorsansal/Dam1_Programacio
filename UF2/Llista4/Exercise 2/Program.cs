@@ -47,7 +47,7 @@
 
             return indexes;
         }
-
+        //Exercici 3
         public static void WriteValues(int[] data, int value)
         {
             Console.WriteLine($"The value {value} has been found in the following indexes: ");

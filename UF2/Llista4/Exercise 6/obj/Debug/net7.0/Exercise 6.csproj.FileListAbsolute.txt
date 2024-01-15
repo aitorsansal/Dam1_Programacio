@@ -1,0 +1,15 @@
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\bin\Debug\net7.0\Exercise 6.exe
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\bin\Debug\net7.0\Exercise 6.deps.json
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\bin\Debug\net7.0\Exercise 6.runtimeconfig.json
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\bin\Debug\net7.0\Exercise 6.dll
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\bin\Debug\net7.0\Exercise 6.pdb
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\Exercise 6.csproj.AssemblyReference.cache
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\Exercise 6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\Exercise 6.AssemblyInfoInputs.cache
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\Exercise 6.AssemblyInfo.cs
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\Exercise 6.csproj.CoreCompileInputs.cache
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\Exercise 6.dll
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\refint\Exercise 6.dll
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\Exercise 6.pdb
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\Exercise 6.genruntimeconfig.cache
+D:\Dam1_Programacio\UF2\Llista4\Exercise 6\obj\Debug\net7.0\ref\Exercise 6.dll
