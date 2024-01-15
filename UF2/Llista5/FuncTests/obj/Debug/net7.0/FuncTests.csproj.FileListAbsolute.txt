@@ -1,0 +1,15 @@
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\bin\Debug\net7.0\FuncTests.exe
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\bin\Debug\net7.0\FuncTests.deps.json
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\bin\Debug\net7.0\FuncTests.runtimeconfig.json
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\bin\Debug\net7.0\FuncTests.dll
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\bin\Debug\net7.0\FuncTests.pdb
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.csproj.AssemblyReference.cache
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.AssemblyInfoInputs.cache
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.AssemblyInfo.cs
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.csproj.CoreCompileInputs.cache
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.dll
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\refint\FuncTests.dll
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.pdb
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.genruntimeconfig.cache
+D:\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\ref\FuncTests.dll
