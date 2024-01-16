@@ -4,7 +4,7 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        
+        Console.WriteLine(GreaterThan("aabaaaa", "aabaaa"));
     }
 
     static bool IsNull(string? data)
@@ -60,15 +60,39 @@ internal class Program
         }
         return sb.ToString();
     }
-    
-    //Is palindrome
-    
-    
-    //Is palindrome without blanks
+
+    static bool IsPalindrome(string data)
+    {
+        int start = 0, end = data.Length - 1;
+        bool isPalindrome = true;
+        while (start < end && isPalindrome)
+        {
+            if (data[start] != data[end]) isPalindrome = false;
+            else
+            {
+                start++;
+                end--;
+            }
+        }
+
+        return false;
+    }
+
+
+    static bool IsPalindromeWithoutBlanks(string data)
+    {
+        var splitted = data.Split(" ");
+        StringBuilder sb = new();
+        foreach (var split in splitted)
+        {
+            sb.Append(split);
+        }
+
+        return IsPalindrome(sb.ToString());
+    }
 
     static string ToUpper(string data)
     {
-        //-32
         if (IsNull(data)) throw new Exception("String is null");
         StringBuilder sb = new();
         foreach (var letter in data)
@@ -86,11 +110,38 @@ internal class Program
         if (IsNull(data)) throw new Exception("String is null");
         bool hasLetter = false;
         int i = 0;
-        while (++i < data.Length && !hasLetter)
+        while (i < data.Length && !hasLetter)
         {
             hasLetter = data[i] >= 'a' && data[i] <= 'z' || data[i] >= 'A' && data[i] <= 'Z';
+            i++;
         }
 
         return !hasLetter;
+    }
+
+    static bool GreaterThan(string first, string second)
+    {
+        if (IsNull(first) || IsNull(second)) throw new Exception("One of the two strings is null");
+        bool isGreater = false, isDifferent = false;
+        int i = 0;
+        if (first.Length > second.Length)
+        {
+            isGreater = true;
+            isDifferent = true;
+        }
+        while (i < first.Length && i < second.Length && !isDifferent)
+        {
+            var tempFirst = first[i];
+            var tempSecond = second[i];
+            if (first[i] != second[i])
+            {
+                if (first[i] > 'Z') tempFirst = (char)(first[i] - 32);
+                if (second[i] > 'Z') tempSecond = (char)(second[i] - 32);
+                if (tempFirst > tempSecond) isGreater = true;
+                else isDifferent = true;
+            }
+            i++;
+        }
+        return isGreater;
     }
 }

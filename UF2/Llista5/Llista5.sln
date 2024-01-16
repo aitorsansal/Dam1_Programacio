@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncTests", "FuncTests\FuncTests.csproj", "{6BF35E49-A947-452C-944C-CBA6CF0B93F9}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncTests", "FuncTests\FuncTests.csproj", "{6BF35E49-A947-452C-944C-CBA6CF0B93F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPC Codes Exercise", "UPC Codes Exercise\UPC Codes Exercise.csproj", "{8D05BA5B-4293-438E-9827-819011AEFEF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,12 @@ Global
 		{6BF35E49-A947-452C-944C-CBA6CF0B93F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BF35E49-A947-452C-944C-CBA6CF0B93F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BF35E49-A947-452C-944C-CBA6CF0B93F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D05BA5B-4293-438E-9827-819011AEFEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D05BA5B-4293-438E-9827-819011AEFEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D05BA5B-4293-438E-9827-819011AEFEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D05BA5B-4293-438E-9827-819011AEFEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
