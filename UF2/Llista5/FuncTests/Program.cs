@@ -4,7 +4,11 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine(GreaterThan("aabaaaa", "aabaaa"));
+        Console.WriteLine(GreaterThan("Be", "Anna"));
+        Console.WriteLine(GreaterThan("be", "Anna"));
+        Console.WriteLine(GreaterThan("Salat", "Sal"));
+        Console.WriteLine(GreaterThan("Sal", "Salat"));
+        Console.WriteLine(GreaterThan("Anna", "anna"));
     }
 
     static bool IsNull(string? data)
@@ -124,24 +128,24 @@ internal class Program
         if (IsNull(first) || IsNull(second)) throw new Exception("One of the two strings is null");
         bool isGreater = false, isDifferent = false;
         int i = 0;
-        if (first.Length > second.Length)
+        if (first.Length > second.Length || first.Length < second.Length)
         {
-            isGreater = true;
             isDifferent = true;
         }
-        while (i < first.Length && i < second.Length && !isDifferent)
+        while (i < first.Length && i < second.Length && !isGreater)
         {
             var tempFirst = first[i];
             var tempSecond = second[i];
-            if (first[i] != second[i])
+            if (first[i] > 'Z') tempFirst = (char)(first[i] - 32);
+            if (second[i] > 'Z') tempSecond = (char)(second[i] - 32);
+            if (tempSecond != tempFirst)
             {
-                if (first[i] > 'Z') tempFirst = (char)(first[i] - 32);
-                if (second[i] > 'Z') tempSecond = (char)(second[i] - 32);
-                if (tempFirst > tempSecond) isGreater = true;
-                else isDifferent = true;
+                isGreater = tempFirst > tempSecond;
             }
             i++;
         }
+        if(!isGreater && isDifferent)
+            isGreater = first.Length > second.Length;
         return isGreater;
     }
 }

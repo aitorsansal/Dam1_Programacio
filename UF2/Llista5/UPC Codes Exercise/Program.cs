@@ -24,6 +24,7 @@ namespace UPC_Codes_Exercise
                 int timesToLoop = Convert.ToInt32(sr.ReadLine());
                 for (int i = 0; i < timesToLoop; i++)
                 {
+                    checkDigit = 0;
                     sb.Clear();
                     var numbsAsString = sr.ReadLine().Split(" ");
                     for (int j = 0; j < numbsAsString.Length; j+=2)
