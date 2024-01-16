@@ -40,7 +40,7 @@
             }
             for (int i = 0; i < letters; i++)
             {
-                sb.Append((char)(toAdd + r.Next(0,27));
+                sb.Append((char)(toAdd + r.Next(0,27)));
             }
             return sb.ToString();
         }
