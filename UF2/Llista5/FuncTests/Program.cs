@@ -126,13 +126,13 @@ internal class Program
     static bool GreaterThan(string first, string second)
     {
         if (IsNull(first) || IsNull(second)) throw new Exception("One of the two strings is null");
-        bool isGreater = false, isDifferent = false;
+        bool isGreater = false, isDifferent = false, hasDiffChar = false;
         int i = 0;
         if (first.Length > second.Length || first.Length < second.Length)
         {
             isDifferent = true;
         }
-        while (i < first.Length && i < second.Length && !isGreater)
+        while (i < first.Length && i < second.Length && !isGreater && !hasDiffChar)
         {
             var tempFirst = first[i];
             var tempSecond = second[i];
@@ -140,11 +140,14 @@ internal class Program
             if (second[i] > 'Z') tempSecond = (char)(second[i] - 32);
             if (tempSecond != tempFirst)
             {
-                isGreater = tempFirst > tempSecond;
+                if (tempFirst > tempSecond)
+                    isGreater = true;
+                else
+                    hasDiffChar = true;
             }
             i++;
         }
-        if(!isGreater && isDifferent)
+        if(!isGreater && isDifferent && !hasDiffChar)
             isGreater = first.Length > second.Length;
         return isGreater;
     }
