@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aitorsansal\\Programming\\UF2\\GameOfLife\\GameOfLife\\GameOfLife.csproj",
+      "projectUniqueName": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\GameOfLife\\GameOfLife\\GameOfLife.csproj",
       "projectName": "GameOfLife",
-      "projectPath": "C:\\Users\\aitorsansal\\Programming\\UF2\\GameOfLife\\GameOfLife\\GameOfLife.csproj",
+      "projectPath": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\GameOfLife\\GameOfLife\\GameOfLife.csproj",
       "packagesPath": "C:\\Users\\aitorsansal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aitorsansal\\Programming\\UF2\\GameOfLife\\GameOfLife\\obj\\",
+      "outputPath": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\GameOfLife\\GameOfLife\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aitorsansal\\AppData\\Roaming\\NuGet\\NuGet.Config",
