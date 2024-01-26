@@ -28,3 +28,5 @@ C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.
 C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.pdb
 C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\FuncTests.genruntimeconfig.cache
 C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\Llista5\FuncTests\obj\Debug\net7.0\ref\FuncTests.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\Llista5\FuncTests\bin\Debug\net7.0\paraules.txt
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\Llista5\FuncTests\bin\Debug\net7.0\students.txt

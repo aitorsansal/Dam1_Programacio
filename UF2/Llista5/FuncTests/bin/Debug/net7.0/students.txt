@@ -1,0 +1,10 @@
+﻿001,John,Smith,8,7,9
+002,Emily,Johnson,6,8,7
+003,Daniel,Williams,9,9,9
+004,Olivia,Jones,7,6,9
+005,Michael,Brown,5,8,7
+006,Sophia,Davis,8,9,10
+007,William,Miller,6,7,8
+008,Emma,Wilson,9,8,6
+009,Alexander,Moore,7,9,7
+010,Ava,Anderson,8,7,8

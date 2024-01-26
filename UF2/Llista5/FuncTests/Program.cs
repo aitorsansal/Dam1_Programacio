@@ -1,14 +1,30 @@
-﻿using System.Text;
+﻿using System.Runtime.ExceptionServices;
+using System.Text;
 
 internal class Program
 {
+    private const string FILE_NAME = "paraules.txt";
+    private const string STUDENTS_FILE_NAME = "students.txt";
     public static void Main(string[] args)
     {
-        Console.WriteLine(GreaterThan("Be", "Anna"));
-        Console.WriteLine(GreaterThan("be", "Anna"));
-        Console.WriteLine(GreaterThan("Salat", "Sal"));
-        Console.WriteLine(GreaterThan("Sal", "Salat"));
-        Console.WriteLine(GreaterThan("Anna", "anna"));
+        //var paraules = GetPalindromWords(FILE_NAME);
+        //foreach (var paraula in paraules)
+        //{
+        //    Console.WriteLine(paraula);
+        //}
+
+        //var list = new List<int>() { 1, 5, 3, 2, 5, 7, 1, 2, 5, 4, 8, 3, 2, 1, 9, 8, 4, 1, 3, 5, 48, 6 };
+        //var newList = EraseRepeated(list);
+        //foreach (var num in newList)
+        //{
+        //    Console.WriteLine(num);
+        //}
+        //var students = ReturnStudentsHighOfEight(STUDENTS_FILE_NAME);
+        //foreach (var student in students)
+        //{
+        //    Console.WriteLine(student);
+        //}
+        ReturnCodeAndAverage(STUDENTS_FILE_NAME);
     }
 
     static bool IsNull(string? data)
@@ -151,4 +167,85 @@ internal class Program
             isGreater = first.Length > second.Length;
         return isGreater;
     }
+
+    #region Extra Exercises
+
+    static List<string> GetPalindromWords(string fileName)
+    {
+        var paraules = new List<string>();
+        StreamReader sr = new(fileName);
+        string? linia = sr.ReadLine();
+        while (linia != null)
+        {
+            if(IsPalindrome(linia)) paraules.Add(linia);
+            linia = sr.ReadLine();
+        }
+        return paraules;
+    }
+
+    static List<int> EraseRepeated(List<int> toFetch)
+    {
+        var newNums = new List<int>() { toFetch[0] };
+        for (int i = 1; i < toFetch.Count; i++)
+        {
+            bool isRepeated = false;
+            int j = 0;
+            while (!isRepeated && j < newNums.Count)
+            {
+                if (toFetch[i] == newNums[j]) isRepeated = true;
+                else j++;
+            }
+            if(!isRepeated) newNums.Add(toFetch[i]);
+        }
+
+        return newNums;
+    }
+
+    static List<int> ReturnStudentsHighOfEight(string fileName)
+    {
+        var studentCodes = new List<int>();
+        using (StreamReader sr = new(fileName))
+        {
+            string? line = sr.ReadLine();
+            while (line != null)
+            {
+                var splitted = line.Split(',');
+                var mathScore = Convert.ToInt32(splitted[3]);
+                var scienceScore = Convert.ToInt32(splitted[4]);
+                var languageScore = Convert.ToInt32(splitted[5]);
+                if (mathScore >= 8 && scienceScore >= 8 && languageScore >= 8)
+                    studentCodes.Add(Convert.ToInt32(splitted[0]));
+                line = sr.ReadLine();
+            }
+        }
+
+        return studentCodes;
+    }
+
+    static int[,] ReturnCodeAndAverage(string fileName)
+    {
+        int[,] newMatrix;
+        using (StreamReader sr = new StreamReader(fileName))
+        {
+            var wholeText = sr.ReadToEnd();
+            var quantityOfLines = wholeText.Split("\n").Length;
+            newMatrix = new int[quantityOfLines, 1];
+        }
+
+        using (StreamReader sr = new(fileName))
+        {
+            var line = sr.ReadLine();
+            var splitted = line.Split(',');
+            var mathScore = Convert.ToInt32(splitted[3]);
+            var scienceScore = Convert.ToInt32(splitted[4]);
+            var languageScore = Convert.ToInt32(splitted[5]);
+            for (int i = 0; i < newMatrix.GetLength(); i++)
+            {
+                
+            }
+        }
+
+        return newMatrix;
+    }
+    #endregion
 }
