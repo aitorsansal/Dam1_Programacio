@@ -222,26 +222,27 @@ internal class Program
         return studentCodes;
     }
 
-    static int[,] ReturnCodeAndAverage(string fileName)
+    static double[,] ReturnCodeAndAverage(string fileName)
     {
-        int[,] newMatrix;
+        double[,] newMatrix;
         using (StreamReader sr = new StreamReader(fileName))
         {
             var wholeText = sr.ReadToEnd();
             var quantityOfLines = wholeText.Split("\n").Length;
-            newMatrix = new int[quantityOfLines, 1];
+            newMatrix = new double[quantityOfLines, 1];
         }
 
         using (StreamReader sr = new(fileName))
         {
             var line = sr.ReadLine();
             var splitted = line.Split(',');
-            var mathScore = Convert.ToInt32(splitted[3]);
+            var mathScore = Convert.ToDouble(splitted[3]);
             var scienceScore = Convert.ToInt32(splitted[4]);
             var languageScore = Convert.ToInt32(splitted[5]);
-            for (int i = 0; i < newMatrix.GetLength(); i++)
+            for (int i = 0; i < newMatrix.GetLength(0); i++)
             {
-                
+                newMatrix[i, 0] = Convert.ToInt32(splitted[0]);
+                newMatrix[i, 1] = (mathScore + scienceScore + languageScore) / 3;
             }
         }
 
