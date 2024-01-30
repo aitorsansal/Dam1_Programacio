@@ -1,0 +1,16 @@
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\bin\Debug\net8.0\FileProcessing.exe
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\bin\Debug\net8.0\phrases.txt
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\bin\Debug\net8.0\FileProcessing.deps.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\bin\Debug\net8.0\FileProcessing.runtimeconfig.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\bin\Debug\net8.0\FileProcessing.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\bin\Debug\net8.0\FileProcessing.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\FileProcessing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\FileProcessing.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\FileProcessing.AssemblyInfo.cs
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\FileProcessing.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\FileProcessing.sourcelink.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\FileProcessing.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\refint\FileProcessing.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\FileProcessing.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\FileProcessing.genruntimeconfig.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF2\FileProcessing\FileProcessing\obj\Debug\net8.0\ref\FileProcessing.dll
