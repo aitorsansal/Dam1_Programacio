@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\Start of OOP.csproj": {}
+    "D:\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\Start of OOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\Start of OOP.csproj": {
+    "D:\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\Start of OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\Start of OOP.csproj",
+        "projectUniqueName": "D:\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\Start of OOP.csproj",
         "projectName": "Start of OOP",
-        "projectPath": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\Start of OOP.csproj",
-        "packagesPath": "C:\\Users\\aitorsansal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\obj\\",
+        "projectPath": "D:\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\Start of OOP.csproj",
+        "packagesPath": "C:\\Users\\TiaSanchez\\.nuget\\packages\\",
+        "outputPath": "D:\\Dam1_Programacio\\UF4\\Start of OOP\\Start of OOP\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aitorsansal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\TiaSanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
