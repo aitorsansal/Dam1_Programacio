@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic.CompilerServices;
+﻿using System.Text;
+using Microsoft.VisualBasic.CompilerServices;
 
 namespace GestioBancaria
 {
@@ -109,6 +110,22 @@ namespace GestioBancaria
             ba1.Close();
             ba2.Close();
             return newBankAccount;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new();
+            sb.Append($"Num c.c --> {accountNumber}");
+            sb.Append("\n");
+            sb.Append($"Titular --> {holderSurname}, {holderName}");
+            sb.Append("\n");
+            sb.Append($"Saldo --> {Math.Round(balance, 2)}");
+            if (locked)
+            {
+                sb.Append("\n");
+                sb.Append("Compte bloquejat");
+            }
+            return sb.ToString();
         }
     }
 }
