@@ -104,7 +104,7 @@ public class Fraction
 
         if (Sign == f.Sign)
         {
-            numSPrimer = numSPrimer + numSSegon;
+            numSPrimer += numSSegon;
             signS = Sign;
         }
         else
@@ -167,7 +167,7 @@ public class Fraction
         return fraction1Copy;
     }
 
-    public Fraction Divide(Fraction f1, Fraction f2)
+    public static Fraction Divide(Fraction f1, Fraction f2)
     {
         Fraction fraction1Copy = new Fraction(f1);
         fraction1Copy.Divide(f2);
@@ -211,6 +211,31 @@ public class Fraction
     public static Fraction operator -(Fraction f1, Fraction f2)
     {
         return Add(f1, -f2);
+    }
+    
+    public static Fraction operator *(Fraction f1, Fraction f2)
+    {
+        return Multiply(f1, f2);
+    }
+
+    public static Fraction operator !(Fraction f)
+    {
+        return new Fraction(f.Denominator, f.Numerator, f.Sign);
+    }
+
+    public static Fraction operator ++(Fraction f)
+    {
+        return f + new Fraction(1,1,'+');
+    }
+
+    public static Fraction operator --(Fraction f)
+    {
+        return f - new Fraction(1, 1, '+');
+    }
+    
+    public static Fraction operator /(Fraction f1, Fraction f2)
+    {
+        return Divide(f1, f2);
     }
 
 #endregion
