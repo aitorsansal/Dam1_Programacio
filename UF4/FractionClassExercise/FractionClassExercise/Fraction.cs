@@ -267,9 +267,14 @@ public class Fraction
     {
         bool areEqual = true;
         if (this is null) areEqual = obj is null;
-        else if (obj is Fraction f) areEqual = Fraction.Equivalents(this, f);
+        else if (obj is Fraction f) areEqual = Equivalents(this, f);
         else areEqual = false;
         return areEqual;
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(a_num, a_den, a_sign);
     }
 
     #endregion
