@@ -135,7 +135,7 @@ public class Fraction
 
     public void Divide(Fraction f)
     {
-        Fraction inverted = new Fraction(f.Denominator, f.Denominator, f.Sign);
+        Fraction inverted = new Fraction(f.Denominator, f.Numerator, f.Sign);
         Multiply(inverted);
     }
 #endregion
