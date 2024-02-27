@@ -1,0 +1,15 @@
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\bin\Debug\net8.0\TaulaLlista.exe
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\bin\Debug\net8.0\TaulaLlista.deps.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\bin\Debug\net8.0\TaulaLlista.runtimeconfig.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\bin\Debug\net8.0\TaulaLlista.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\bin\Debug\net8.0\TaulaLlista.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\TaulaLlista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\TaulaLlista.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\TaulaLlista.AssemblyInfo.cs
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\TaulaLlista.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\TaulaLlista.sourcelink.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\TaulaLlista.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\refint\TaulaLlista.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\TaulaLlista.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\TaulaLlista.genruntimeconfig.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\TaulaLlista\TaulaLlista\obj\Debug\net8.0\ref\TaulaLlista.dll
