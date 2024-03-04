@@ -2,7 +2,7 @@
 using System.Text;
 using System.Xml.Schema;
 
-namespace FractionClassExercise;
+namespace Fraction;
 
 public class Fraction
 {
@@ -28,7 +28,7 @@ public class Fraction
         get => a_den;
         set
         {
-            if (value <= 0) throw new Exception("Numerator cannot be negative or 0");
+            if (value <= 0) throw new Exception("Denominator cannot be negative or 0");
             a_den = value;
         }
     }
@@ -41,12 +41,9 @@ public class Fraction
             a_sign = value;
         }
     }
-    public double RealValue
-    {
-        get => Convert.ToDouble(a_num)/Convert.ToDouble(a_den);
-    }
+    public double RealValue => Numerator/Convert.ToDouble(Denominator) * (Sign == '-' ? -1 : 1);
 
-#endregion
+    #endregion
 
 #region Constructors
     public Fraction(int num, int den, char sign)
@@ -119,6 +116,7 @@ public class Fraction
         Numerator = numSPrimer;
         Denominator = denS;
         Sign = signS;
+        Simplify();
     }
 
     public void Multiply(Fraction f)
@@ -251,10 +249,8 @@ public class Fraction
             if (result == 0)
             {
                 sb.Remove(0, 1);
-                sb.Append(result);
             }
-            else
-                sb.Append(Numerator / Denominator);
+            sb.Append(result);
         }
         else
         {

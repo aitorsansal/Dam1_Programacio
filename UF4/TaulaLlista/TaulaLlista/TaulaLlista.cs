@@ -1,13 +1,15 @@
 ﻿using System.Text;
 
-namespace ED
+namespace TL
 {
     public class TaulaLlista
     {
         private object[] dades;
         private int nElements;
+        private const int MIDA_DEFECTE = 5;
 
-        public int Capacitat => nElements;
+        public int Capacitat => dades.Length;
+        public int NElements => nElements;
 
         public TaulaLlista(int mida)
         {
@@ -15,97 +17,66 @@ namespace ED
             nElements = 0;
         }
 
-        public TaulaLlista() : this(2)
-        {
-        }
+        public TaulaLlista() : this(MIDA_DEFECTE)
+        { }
 
         public TaulaLlista(TaulaLlista taula)
         {
+            if (taula is null) throw new NullReferenceException("La taula a copiar no pot ser nul·la");
             dades = new object[taula.dades.Length];
             nElements = taula.nElements;
-            for (int i = 0; i < nElements; i++)
-            {
-                dades[i] = taula.dades[i];
-            }
+            for (int i = 0; i < nElements; i++) { dades[i] = taula.dades[i]; }
         }
 
         public int Afegeix(object elem)
         {
-            if (elem == null) throw new NullReferenceException();
-            if (nElements == dades.Length) DuplicaMida();
+            if (elem is null) throw new NullReferenceException();
+            if (nElements == Capacitat) DuplicaMida();
             dades[nElements] = elem;
-            nElements++;
-            return nElements - 1;
+            return nElements++;
         }
 
         public void AfegeixRang(IEnumerable<object> arrayElements)
         {
-            if (arrayElements == null) throw new NullReferenceException();
-            foreach (var element in arrayElements)
-            {
-                if (element != null)
-                    Afegeix(element);
-            }
+            if (arrayElements is null) throw new NullReferenceException(nameof(arrayElements));
+            foreach (var element in arrayElements) Afegeix(element);
         }
-
-        public void Insereix(object element, int position)
-        {
-            if (position < 0 || position > nElements - 1) throw new IndexOutOfRangeException(nameof(position));
-            Afegeix(dades[nElements - 1]);
-            for (int i = nElements - 1; i > position; i--)
-            {
-                dades[i] = dades[i - 1];
-            }
-            dades[position] = element;
-        }
-
         public void Neteja()
         {
             for (int i = 0; i < nElements; i++)
-            {
-                dades[i] = null;
-            }
+                dades[i] = default;
 
             nElements = 0;
         }
-
-        public bool Conté(object elem)
+        public void Insereix(object element, int position)
         {
-            int i = 0;
-            bool contains = false;
-            while (!contains && i < nElements)
+            if (element is null) throw new ArgumentNullException(nameof(element));
+            if (position < 0 || position > nElements - 1) throw new IndexOutOfRangeException(nameof(position));
+            Afegeix(element);
+            object aux;
+            for (int i = nElements - 1; i >= position; i--)
             {
-                if (elem.Equals(dades[i])) contains = true;
-                else i++;
+                aux = dades[i];
+                dades[i] = dades[i - 1];
+                dades[i - 1] = aux;
             }
-
-            return contains;
         }
 
-        public int IndexDe(object elem)
+        public object EliminaA(int pos)
         {
-            int i = 0, index = -1;
-            while (index == -1 && i < nElements)
+            object o;
+            if (pos < 0 || pos >= nElements) throw new IndexOutOfRangeException("index out of range");
+
+            o = dades[pos];
+            for (int i = pos; i <= nElements - 2; i++)
             {
-                if (elem.Equals(dades[i])) index = i;
-                else i++;
+                dades[i] = dades[i + 1];
             }
 
-            return index;
+            dades[nElements - 1] = default;
+            nElements--;
+            return o;
         }
-
-        public int UltimIndexDe(object elem)
-        {
-            int i = nElements, index = -1;
-            while (index == -1 && i > 0)
-            {
-                if (elem.Equals(dades[i])) index = i;
-                else i--;
-            }
-
-            return index;
-        }
-
         public bool Elimina(object elem)
         {
             int i = 0;
@@ -132,6 +103,45 @@ namespace ED
             return found;
         }
 
+        public bool Conte(object elem)
+        {
+            int i = 0;
+            bool contains = false;
+            while (!contains && i < nElements)
+            {
+                if (elem.Equals(dades[i])) contains = true;
+                else i++;
+            }
+
+            return contains;
+        }
+
+        public int IndexDe(object elem)
+        {
+            int i = 0, index = 0;
+            bool found = false;
+            while (!found && i < nElements)
+            {
+                found = Equals(dades[i], elem);
+                if (!found) i++;
+            }
+
+            if (!found) index = -1;
+            return index;
+        }
+
+        public int UltimIndexDe(object elem)
+        {
+            int i = nElements, index = -1;
+            while (index == -1 && i > 0)
+            {
+                if (elem.Equals(dades[i])) index = i;
+                else i--;
+            }
+
+            return index;
+        }
+
         public void Inverteix()
         {
             object aux;
@@ -141,8 +151,6 @@ namespace ED
                 dades[i] = dades[nElements - 1 - i];
                 dades[nElements - 1 - i] = aux;
             }
-            //TODO: comment with teacher
-            //(dades[i], dades[nElements - 1 - i]) = (dades[nElements - 1 - i], dades[i]);
         }
         public object[] ToArray()
         {
@@ -159,11 +167,7 @@ namespace ED
         private void DuplicaMida()
         {
             object[] newArray = new object[dades.Length * 2];
-            for (int i = 0; i < dades.Length; i++)
-            {
-                newArray[i] = dades[i];
-            }
-
+            for (int i = 0; i < Capacitat; i++) { newArray[i] = dades[i]; }
             dades = newArray;
         }
 
@@ -176,8 +180,14 @@ namespace ED
         {
             get
             {
-                if (index < 0 || index > nElements) throw new ArgumentOutOfRangeException(nameof(index));
+                if (index < 0 || index > nElements) throw new IndexOutOfRangeException($"{index} out of range [0,{nElements - 1}]");
                 return dades[index];
+            }
+            set
+            {
+                if (index < nElements || index > 0)
+                    throw new IndexOutOfRangeException($"{index} out of range [0,{nElements - 1}]");
+                dades[index] = value ?? throw new ArgumentNullException(nameof(value));
             }
         }
 
@@ -200,13 +210,25 @@ namespace ED
 
         public override bool Equals(object? obj)
         {
-            bool equals;
+            bool equals = true;
             if (obj == null) equals = false;
-            else if (obj is TaulaLlista) equals = true;
+            else if (obj is TaulaLlista llista)
+            {
+                TaulaLlista entrada = new(llista);
+                if (nElements != entrada.nElements) equals = false;
+                else
+                {
+                    int i = 0;
+                    while (equals && i<nElements)
+                    {
+                        equals = dades[i].Equals(entrada.dades[i]);
+                        i++;
+                    }
+                }
+            }
             else equals = false;
             return equals;
         }
-
         #endregion
     }
 }
