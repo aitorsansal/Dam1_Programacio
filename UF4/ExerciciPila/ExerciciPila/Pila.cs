@@ -12,44 +12,34 @@ public class Pila<T>
         elements = new T?[size];
         nElements = 0;
     }
-    public Pila() : this(5) {}
+    public Pila() : this(10) {}
 
-    public void Empila(T? element)
+    public void Empila(T element)
     {
         if (element is null) throw new ArgumentNullException(nameof(element));
+        if (nElements == elements.Length) throw new StackOverflowException();
         elements[nElements] = element;
         nElements++;
     }
 
-    public void Desempila()
+    public T Desempila()
     {
-        for (int i = 0; i < nElements; i++)
-        {
-            elements[i] = default;
-        }
-
-        nElements = 0;
+        nElements--;
+        T element = elements[nElements];
+        elements[nElements] = default;
+        return element;
     }
     
-    public T? Cim()
-    {
-        return elements[nElements - 1];
-    }
+    public T? Cim => nElements > 0 ? elements[nElements - 1] : throw new Exception("STACK UNDERFLOW");
 
-    public bool EsBuida()
-    {
-        return nElements == 0;
-    }
+    public bool EsBuida => nElements == 0;
 
-    public bool EsPlena()
-    {
-        return nElements == elements.Length;
-    }
+    public bool EsPlena => nElements == elements.Length;
 
     public override bool Equals(object? obj)
     {
         bool equals = false;
-        if (obj is not null && obj is Pila<T>)
+        if (obj is Pila<T>)
         {
             Pila<T> toCheck = (Pila<T>)obj;
             if (nElements == toCheck.nElements)
@@ -66,13 +56,26 @@ public class Pila<T>
 
     public override string ToString()
     {
-        StringBuilder sb = new StringBuilder("[");
-        for (int i = 0; i < nElements -1; i++)
+        StringBuilder sb = new StringBuilder();
+        if (EsBuida)
+            sb.Append("PILA BUIDA: -");
+        else
         {
-            sb.Append(elements[i] + ",");
+            if (EsPlena)
+            {
+                sb.Append("PILA PLENA:");
+            }
+            else
+            {
+                sb.Append($"PILA {nElements}/{elements.Length}: ");
+            }
+            for (int i = nElements - 1; i > 0; i--)
+            {
+                sb.Append(elements[i] + "-");
+            }
+            sb.Append(elements[0]);
         }
 
-        sb.Append(elements[nElements - 1] + "]");
         return sb.ToString();
     }
 

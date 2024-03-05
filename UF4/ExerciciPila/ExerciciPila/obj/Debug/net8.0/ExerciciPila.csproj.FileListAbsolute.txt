@@ -1,0 +1,15 @@
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\bin\Debug\net8.0\ExerciciPila.exe
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\bin\Debug\net8.0\ExerciciPila.deps.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\bin\Debug\net8.0\ExerciciPila.runtimeconfig.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\bin\Debug\net8.0\ExerciciPila.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\bin\Debug\net8.0\ExerciciPila.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\ExerciciPila.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\ExerciciPila.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\ExerciciPila.AssemblyInfo.cs
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\ExerciciPila.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\ExerciciPila.sourcelink.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\ExerciciPila.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\refint\ExerciciPila.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\ExerciciPila.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\ExerciciPila.genruntimeconfig.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\ExerciciPila\ExerciciPila\obj\Debug\net8.0\ref\ExerciciPila.dll

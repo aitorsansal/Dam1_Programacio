@@ -118,12 +118,12 @@ namespace TL
 
         public int IndexDe(object elem)
         {
-            int i = 0, index = 0;
+            int index = 0;
             bool found = false;
-            while (!found && i < nElements)
+            while (!found && index < nElements)
             {
-                found = Equals(dades[i], elem);
-                if (!found) i++;
+                found = Equals(dades[index], elem);
+                if (!found) index++;
             }
 
             if (!found) index = -1;
@@ -132,13 +132,15 @@ namespace TL
 
         public int UltimIndexDe(object elem)
         {
-            int i = nElements, index = -1;
-            while (index == -1 && i > 0)
+            int index = nElements;
+            bool found = false;
+            while (!found && index > 0)
             {
-                if (elem.Equals(dades[i])) index = i;
-                else i--;
+                found = elem.Equals(dades[index]);
+                if(!found) index--;
             }
 
+            if (!found) index = -1;
             return index;
         }
 
