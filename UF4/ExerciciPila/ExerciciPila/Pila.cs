@@ -39,7 +39,8 @@ public class Pila<T>
     public override bool Equals(object? obj)
     {
         bool equals = false;
-        if (obj is Pila<T>)
+        if (obj is null) equals = this is null;
+        else if (obj is Pila<T>)
         {
             Pila<T> toCheck = (Pila<T>)obj;
             if (nElements == toCheck.nElements)

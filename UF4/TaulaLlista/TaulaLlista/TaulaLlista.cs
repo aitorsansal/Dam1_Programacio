@@ -213,7 +213,7 @@ namespace TL
         public override bool Equals(object? obj)
         {
             bool equals = true;
-            if (obj == null) equals = false;
+            if (obj is null) equals = this is null;
             else if (obj is TaulaLlista llista)
             {
                 TaulaLlista entrada = new(llista);
