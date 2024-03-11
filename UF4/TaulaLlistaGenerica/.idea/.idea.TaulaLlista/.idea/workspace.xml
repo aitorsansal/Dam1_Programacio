@@ -8,8 +8,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0c1f811-c9ee-4280-904e-cb3a9c4446be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TaulaLlistaGenerica/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaulaLlistaGenerica/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaulaLlistaGenerica/TaulaLlista.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaulaLlistaGenerica/TaulaLlistaGenerica.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/.idea/.idea.ArrayListOrdenacions/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/ArrayListOrdenacions.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/TaulaLlistaGenerica.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/ArrayListOrdenacions.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/ArrayListOrdenacions.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/ArrayListOrdenacions.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaulaLlistaGenerica/equips.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaulaLlistaGenerica/TaulaLlistaGenerica.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaulaLlistaGenerica/TaulaLlistaGenerica.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +105,7 @@
       <workItem from="1709315183492" duration="967000" />
       <workItem from="1709576371613" duration="6057000" />
       <workItem from="1709654772689" duration="2512000" />
-      <workItem from="1710184205462" duration="327000" />
+      <workItem from="1710184205462" duration="2325000" />
     </task>
     <servers />
   </component>

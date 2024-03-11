@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListOrdenacions", "ArrayListOrdenacions\ArrayListOrdenacions.csproj", "{B8272770-F795-4E1E-8BD7-6E3C606CA92B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8272770-F795-4E1E-8BD7-6E3C606CA92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8272770-F795-4E1E-8BD7-6E3C606CA92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8272770-F795-4E1E-8BD7-6E3C606CA92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8272770-F795-4E1E-8BD7-6E3C606CA92B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

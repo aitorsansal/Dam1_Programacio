@@ -250,13 +250,13 @@ namespace TL
             return Equals(obj as TaulaLlistaGenerica<T>);
         }
 
-        public bool Equals(TaulaLlistaGenerica<T>? obj)
+        public bool Equals(T? obj)
         {
-            bool equals = false;
+            bool equals = true;
             if (obj is null) equals = this is null;
-            else
+            else if (obj is TaulaLlistaGenerica<T> llista)
             {
-                TaulaLlistaGenerica<T> entrada = new(obj);
+                TaulaLlistaGenerica<T> entrada = new(llista);
                 if (nElements != entrada.nElements) equals = false;
                 else
                 {
@@ -268,6 +268,7 @@ namespace TL
                     }
                 }
             }
+            else equals = false;
             return equals;
         }
         #endregion
