@@ -3,7 +3,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        TaulaLlista tAndromines = new TaulaLlista(5);
+        TaulaLlistaGenerica<int> tAndromines = new TaulaLlistaGenerica<int>(5);
         Random r = new Random();
         object o;
         for (int i = 0; i < 20; i++)

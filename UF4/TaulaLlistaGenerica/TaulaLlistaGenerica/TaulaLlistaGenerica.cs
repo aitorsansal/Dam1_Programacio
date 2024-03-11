@@ -2,7 +2,7 @@
 
 namespace TL
 {
-    public class TaulaLlista<T>
+    public class TaulaLlistaGenerica<T>
     {
         private T[] dades;
         private int nElements;
@@ -11,16 +11,16 @@ namespace TL
         public int Capacitat => dades.Length;
         public int NElements => nElements;
 
-        public TaulaLlista(int mida)
+        public TaulaLlistaGenerica(int mida)
         {
             dades = new T[mida];
             nElements = 0;
         }
 
-        public TaulaLlista() : this(MIDA_DEFECTE)
+        public TaulaLlistaGenerica() : this(MIDA_DEFECTE)
         { }
 
-        public TaulaLlista(TaulaLlista<T> taula)
+        public TaulaLlistaGenerica(TaulaLlistaGenerica<T> taula)
         {
             if (taula is null) throw new NullReferenceException("La taula a copiar no pot ser nul·la");
             dades = new T[taula.dades.Length];
@@ -97,7 +97,7 @@ namespace TL
                     dades[j] = dades[j + 1];
                 }
 
-                dades[nElements - 1] = null;
+                dades[nElements - 1] = default;
                 nElements--;
             }
             return found;
@@ -164,6 +164,39 @@ namespace TL
             return toReturn;
         }
 
+        public T PrimerMenorQue(T element)
+        {
+            if(dades[0] is not IComparable<T> || element is not IComparable<T>) throw new Exception("Els elements no son comparables");
+            if (nElements == 0) throw new Exception("La taula llista està buida");
+            T elementPetit = default(T);
+            bool found = false;
+            for (int i = 0; i < dades.Length && !found; i++)
+            {
+                if ((dades[i] as IComparable<T>).CompareTo(element) < 0)
+                {
+                    elementPetit = dades[i];
+                    found = true;
+                }
+            }
+
+            return elementPetit;
+        }
+
+        
+        /// <summary>
+        /// Use toArray to create an array with Lenght nElements, use Array.sort and reasing values to TaulaLlista
+        /// </summary>
+        public void Sort()
+        {
+            if (dades[0] is not IComparable<T>) throw new Exception("Els elements no son comparables");
+            T[] array = ToArray();
+            Array.Sort(array);
+            for (var index = 0; index < array.Length; index++)
+            {
+                dades[index] = array[index];
+            }
+        }
+
         #region Private Methods
 
         private void DuplicaMida()
@@ -210,13 +243,20 @@ namespace TL
             return toString.ToString();
         }
 
-        public override bool Equals(T? obj)
+        public override bool Equals(object? obj)
+        {
+            if (this is not null) return obj is null;
+            if (obj is not TaulaLlistaGenerica<T>) return false;
+            return Equals(obj as TaulaLlistaGenerica<T>);
+        }
+
+        public bool Equals(T? obj)
         {
             bool equals = true;
             if (obj is null) equals = this is null;
-            else if (obj is TaulaLlista llista)
+            else if (obj is TaulaLlistaGenerica<T> llista)
             {
-                TaulaLlista entrada = new(llista);
+                TaulaLlistaGenerica<T> entrada = new(llista);
                 if (nElements != entrada.nElements) equals = false;
                 else
                 {

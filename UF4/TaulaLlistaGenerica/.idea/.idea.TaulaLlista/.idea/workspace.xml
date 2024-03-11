@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0c1f811-c9ee-4280-904e-cb3a9c4446be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ExerciciPila/ExerciciPila/Pila.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExerciciPila/ExerciciPila/Pila.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaulaLlista/TaulaLlista.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaulaLlista/TaulaLlista.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaulaLlistaGenerica/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaulaLlistaGenerica/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaulaLlistaGenerica/TaulaLlista.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaulaLlistaGenerica/TaulaLlistaGenerica.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +88,7 @@
       <workItem from="1709315183492" duration="967000" />
       <workItem from="1709576371613" duration="6057000" />
       <workItem from="1709654772689" duration="2512000" />
+      <workItem from="1710184205462" duration="327000" />
     </task>
     <servers />
   </component>
