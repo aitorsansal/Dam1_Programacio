@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArrayListOrdenacions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+184523c4c7ba9e5bdec3fc0195536ae12bbda2d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e29665486c82126a1fa0f79dc51e96031e37b48")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArrayListOrdenacions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArrayListOrdenacions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
