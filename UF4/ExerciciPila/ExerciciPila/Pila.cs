@@ -16,8 +16,10 @@ public class Pila<T>
 
     public void Empila(T element)
     {
-        if (element is null) throw new ArgumentNullException(nameof(element));
-        if (nElements == elements.Length) throw new StackOverflowException();
+        if (element is null) 
+            throw new ArgumentNullException(nameof(element));
+        if (nElements == elements.Length) 
+            throw new StackOverflowException();
         elements[nElements] = element;
         nElements++;
     }
@@ -47,9 +49,7 @@ public class Pila<T>
             {
                 equals = true;
                 for (int i = 0; i < nElements && equals; i++)
-                {
                     equals = toCheck[i]!.Equals(this[i]);
-                }
             }
         }
         return equals;
@@ -63,30 +63,26 @@ public class Pila<T>
         else
         {
             if (EsPlena)
-            {
                 sb.Append("PILA PLENA:");
-            }
             else
-            {
                 sb.Append($"PILA {nElements}/{elements.Length}: ");
-            }
             for (int i = nElements - 1; i > 0; i--)
-            {
                 sb.Append(elements[i] + "-");
-            }
             sb.Append(elements[0]);
         }
-
         return sb.ToString();
     }
 
     public T? this[int index]
     {
-        get => index <= nElements || index > 0 ? elements[index] : throw new IndexOutOfRangeException($"{index} out of range [0,{nElements - 1}]");
+        get => index <= nElements || index > 0 ? 
+            elements[index] :
+            throw new IndexOutOfRangeException($"{index} out of range [0,{nElements - 1}]");
         set
         {
             if (index < nElements || index > 0)
-                throw new IndexOutOfRangeException($"{index} out of range [0,{nElements - 1}]");
+                throw new 
+                    IndexOutOfRangeException($"{index} out of range [0,{nElements - 1}]");
             if (value is null) throw new ArgumentNullException(nameof(value));
             elements[index] = value;
         }

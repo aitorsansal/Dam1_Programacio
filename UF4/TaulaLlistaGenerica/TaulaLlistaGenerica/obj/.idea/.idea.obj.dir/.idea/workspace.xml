@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05423864-80bc-4442-be45-05eaa7d33300" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/Equip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/bin/Debug/net8.0/ArrayListOrdenacions.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/bin/Debug/net8.0/ArrayListOrdenacions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/bin/Debug/net8.0/ArrayListOrdenacions.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/bin/Debug/net8.0/ArrayListOrdenacions.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/bin/Debug/net8.0/ArrayListOrdenacions.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/bin/Debug/net8.0/equips.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/equips.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ref/ArrayListOrdenacions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/refint/ArrayListOrdenacions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/.idea/.idea.CercaDicotomicaVSLineal/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/.idea/.idea.CercaDicotomicaVSLineal/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/.idea/.idea.CercaDicotomicaVSLineal/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/.idea/.idea.CercaDicotomicaVSLineal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/.idea/.idea.CercaDicotomicaVSLineal/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/CercaDicotomicaVSLineal.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/bin/Debug/net8.0/CercaDicotomicaVSLineal.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/bin/Debug/net8.0/CercaDicotomicaVSLineal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/bin/Debug/net8.0/CercaDicotomicaVSLineal.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/bin/Debug/net8.0/CercaDicotomicaVSLineal.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/bin/Debug/net8.0/CercaDicotomicaVSLineal.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/bin/Debug/net8.0/grafica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/CercaDicotomicaVSLineal.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/CercaDicotomicaVSLineal.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/CercaDicotomicaVSLineal.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/ref/CercaDicotomicaVSLineal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/Debug/net8.0/refint/CercaDicotomicaVSLineal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/CercaDicotomicaVSLineal/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/grafica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CercaDicotomicaVSLineal/grafica.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/.idea/.idea.CuaGenerica/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/.idea/.idea.CuaGenerica/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/.idea/.idea.CuaGenerica/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/.idea/.idea.CuaGenerica/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/CuaGenerica.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/Queue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/bin/Debug/net8.0/CuaGenerica.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/bin/Debug/net8.0/CuaGenerica.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/bin/Debug/net8.0/CuaGenerica.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/bin/Debug/net8.0/CuaGenerica.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/bin/Debug/net8.0/CuaGenerica.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/CuaGenerica.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/CuaGenerica.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/CuaGenerica.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/CuaGenerica.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/ref/CuaGenerica.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/Debug/net8.0/refint/CuaGenerica.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CuaGenerica/CuaGenerica/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/.idea/.idea.PilaDinamica/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/.idea/.idea.PilaDinamica/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/.idea/.idea.PilaDinamica/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/.idea/.idea.PilaDinamica/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/Node.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/Pila.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/PilaDinamica.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/bin/Debug/net8.0/PilaDinamica.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/bin/Debug/net8.0/PilaDinamica.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/bin/Debug/net8.0/PilaDinamica.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/bin/Debug/net8.0/PilaDinamica.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/bin/Debug/net8.0/PilaDinamica.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/PilaDinamica.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/ref/PilaDinamica.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/Debug/net8.0/refint/PilaDinamica.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/PilaDinamica.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/PilaDinamica.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/PilaDinamica.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PilaDinamica/PilaDinamica/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/.idea/.idea.Recursivitat2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/.idea/.idea.Recursivitat2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/.idea/.idea.Recursivitat2/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/.idea/.idea.Recursivitat2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/Recursivitat2.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/bin/Debug/net8.0/Recursivitat2.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/bin/Debug/net8.0/Recursivitat2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/bin/Debug/net8.0/Recursivitat2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/bin/Debug/net8.0/Recursivitat2.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/bin/Debug/net8.0/Recursivitat2.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/Recursivitat2.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/ref/Recursivitat2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Debug/net8.0/refint/Recursivitat2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Recursivitat2.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Recursivitat2.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/Recursivitat2.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Recursivitat2/Recursivitat2/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/ArrayListOrdenacions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/ArrayListOrdenacions.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/TaulaLlistaGenerica.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/TaulaLlistaGenerica.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ArrayListOrdenacions/ArrayListOrdenacions/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/Fraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/Fraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/FractionClassExercise.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/FractionClassExercise.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/FractionClassExercise.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/FractionClassExercise.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FractionClassExercise/FractionClassExercise/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/rider.project.model.nuget.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2erJZMTjYFJUxp9OTJOOpMXUbxj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05423864-80bc-4442-be45-05eaa7d33300" name="Changes" comment="" />
+      <created>1712656822139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712656822139</updated>
+      <workItem from="1712656830778" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

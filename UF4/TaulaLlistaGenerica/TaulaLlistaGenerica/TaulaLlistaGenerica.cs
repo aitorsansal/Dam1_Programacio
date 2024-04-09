@@ -28,30 +28,32 @@ namespace TL
             for (int i = 0; i < nElements; i++) { dades[i] = taula.dades[i]; }
         }
 
-        public int Afegeix(T elem)
+        public void Afegeix(T elem)
         {
             if (elem is null) throw new NullReferenceException();
             if (nElements == Capacitat) DuplicaMida();
             dades[nElements] = elem;
-            return nElements++;
         }
 
         public void AfegeixRang(IEnumerable<T> arrayElements)
         {
-            if (arrayElements is null) throw new NullReferenceException(nameof(arrayElements));
-            foreach (var element in arrayElements) Afegeix(element);
+            if (arrayElements is null) 
+                throw new 
+                NullReferenceException(nameof(arrayElements));
+            foreach (var element in arrayElements) 
+                Afegeix(element);
         }
         public void Neteja()
         {
             for (int i = 0; i < nElements; i++)
-                dades[i] = default;
-
+                dades[i] = default(T);
             nElements = 0;
         }
         public void Insereix(T element, int position)
         {
             if (element is null) throw new ArgumentNullException(nameof(element));
-            if (position < 0 || position > nElements - 1) throw new IndexOutOfRangeException(nameof(position));
+            if (position < 0 || position > nElements - 1) 
+                throw new IndexOutOfRangeException(nameof(position));
             Afegeix(element);
             T aux;
             for (int i = nElements - 1; i >= position; i--)
@@ -65,8 +67,8 @@ namespace TL
         public T EliminaA(int pos)
         {
             T obj;
-            if (pos < 0 || pos >= nElements) throw new IndexOutOfRangeException("index out of range");
-
+            if (pos < 0 || pos >= nElements)
+                throw new IndexOutOfRangeException("index out of range");
             obj = dades[pos];
             for (int i = pos; i <= nElements - 2; i++)
             {
@@ -84,19 +86,13 @@ namespace TL
             while (!found && i < nElements)
             {
                 if (elem.Equals(dades[i]))
-                {
                     found = true;
-                }
                 else i++;
             }
-
             if (found)
             {
                 for (int j = i; j < nElements-1; j++)
-                {
                     dades[j] = dades[j + 1];
-                }
-
                 dades[nElements - 1] = default;
                 nElements--;
             }
@@ -112,7 +108,6 @@ namespace TL
                 if (elem.Equals(dades[i])) contains = true;
                 else i++;
             }
-
             return contains;
         }
 
@@ -125,9 +120,7 @@ namespace TL
                 found = Equals(dades[index], elem);
                 if (!found) index++;
             }
-
-            if (!found) index = -1;
-            return index;
+            return found ? index : -1;
         }
 
         public int UltimIndexDe(T elem)
@@ -139,9 +132,7 @@ namespace TL
                 found = elem.Equals(dades[index]);
                 if(!found) index--;
             }
-
-            if (!found) index = -1;
-            return index;
+            return found ? index : -1;
         }
 
         public void Inverteix()
@@ -166,8 +157,11 @@ namespace TL
 
         public T PrimerMenorQue(T element)
         {
-            if(dades[0] is not IComparable<T> || element is not IComparable<T>) throw new Exception("Els elements no son comparables");
-            if (nElements == 0) throw new Exception("La taula llista està buida");
+            if(dades[0] is not IComparable<T> || 
+               element is not IComparable<T>) 
+                throw new Exception("Els elements no son comparables");
+            if (nElements == 0) 
+                throw new Exception("La taula llista està buida");
             T elementPetit = default(T);
             bool found = false;
             for (int i = 0; i < dades.Length && !found; i++)
@@ -178,7 +172,6 @@ namespace TL
                     found = true;
                 }
             }
-
             return elementPetit;
         }
 
@@ -188,7 +181,8 @@ namespace TL
         /// </summary>
         public void Sort()
         {
-            if (dades[0] is not IComparable<T>) throw new Exception("Els elements no son comparables");
+            if (dades[0] is not IComparable<T>) 
+                throw new Exception("Els elements no son comparables");
             T[] array = ToArray();
             Array.Sort(array);
             for (var index = 0; index < array.Length; index++)
@@ -215,7 +209,8 @@ namespace TL
         {
             get
             {
-                if (index < 0 || index > nElements) throw new IndexOutOfRangeException($"{index} out of range [0,{nElements - 1}]");
+                if (index < 0 || index > nElements) 
+                    throw new IndexOutOfRangeException($"{index} out of range [0,{nElements - 1}]");
                 return dades[index];
             }
             set
