@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaulaLlistaGenerica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+184523c4c7ba9e5bdec3fc0195536ae12bbda2d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbe48a245669bb40947323feba97b617c23b3210")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaulaLlistaGenerica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaulaLlistaGenerica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

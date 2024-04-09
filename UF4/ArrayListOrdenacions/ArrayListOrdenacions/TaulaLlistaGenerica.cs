@@ -164,23 +164,6 @@ namespace TL
             return toReturn;
         }
 
-        public T Minim()
-        {
-            if (nElements == 0) throw new Exception("LLista buida. No hi ha minim");
-            T valorMinim = dades[0];
-            IComparable<T> valorActual;
-            if (valorMinim is IComparable<T>)
-            {
-                for (int i = 0; i < nElements; i++)
-                {
-                    valorActual = dades[i] as IComparable<T>;
-                    if (valorActual.CompareTo(valorMinim) < 0) valorMinim = dades[i];
-                }
-            }
-            else throw new Exception(valorMinim.GetType() + "no és IComparable");
-
-            return valorMinim;
-        }
         public T PrimerMenorQue(T element)
         {
             if(dades[0] is not IComparable<T> || element is not IComparable<T>) throw new Exception("Els elements no son comparables");
@@ -199,23 +182,15 @@ namespace TL
             return elementPetit;
         }
 
-
+        
+        /// <summary>
+        /// Use toArray to create an array with Lenght nElements, use Array.sort and reasing values to TaulaLlista
+        /// </summary>
         public void Sort()
         {
             if (dades[0] is not IComparable<T>) throw new Exception("Els elements no son comparables");
             T[] array = ToArray();
             Array.Sort(array);
-            for (var index = 0; index < array.Length; index++)
-            {
-                dades[index] = array[index];
-            }
-        }
-        
-        public void Sort(IComparer<T> comparer)
-        {
-            if (dades[0] is not IComparable<T>) throw new Exception("Els elements no son comparables");
-            T[] array = ToArray();
-            Array.Sort(array, comparer);
             for (var index = 0; index < array.Length; index++)
             {
                 dades[index] = array[index];
