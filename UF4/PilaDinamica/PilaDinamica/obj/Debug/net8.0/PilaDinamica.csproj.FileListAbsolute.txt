@@ -1,0 +1,15 @@
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\bin\Debug\net8.0\PilaDinamica.exe
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\bin\Debug\net8.0\PilaDinamica.deps.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\bin\Debug\net8.0\PilaDinamica.runtimeconfig.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\bin\Debug\net8.0\PilaDinamica.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\bin\Debug\net8.0\PilaDinamica.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\PilaDinamica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\PilaDinamica.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\PilaDinamica.AssemblyInfo.cs
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\PilaDinamica.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\PilaDinamica.sourcelink.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\PilaDinamica.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\refint\PilaDinamica.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\PilaDinamica.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\PilaDinamica.genruntimeconfig.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\PilaDinamica\PilaDinamica\obj\Debug\net8.0\ref\PilaDinamica.dll
