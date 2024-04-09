@@ -133,7 +133,10 @@ public class Fraction
 
     public void Divide(Fraction f)
     {
-        Fraction inverted = new Fraction(f.Denominator, f.Numerator, f.Sign);
+        Fraction inverted = new Fraction(
+            f.Denominator, 
+            f.Numerator, 
+            f.Sign);
         Multiply(inverted);
     }
 #endregion
@@ -204,7 +207,9 @@ public class Fraction
     }
     public static Fraction operator -(Fraction f)
     {
-        return new Fraction(f.Numerator, f.Denominator, f.Sign == '-' ? '+' : '-');
+        return new Fraction(f.Numerator, 
+                            f.Denominator, 
+                                f.Sign == '-' ? '+' : '-');
     }
     public static Fraction operator -(Fraction f1, Fraction f2)
     {
@@ -218,7 +223,9 @@ public class Fraction
 
     public static Fraction operator !(Fraction f)
     {
-        return new Fraction(f.Denominator, f.Numerator, f.Sign);
+        return new Fraction(f.Denominator, 
+                            f.Numerator, 
+                                f.Sign);
     }
 
     public static Fraction operator ++(Fraction f)
@@ -266,11 +273,6 @@ public class Fraction
         else if (obj is Fraction f) areEqual = Equivalents(this, f);
         else areEqual = false;
         return areEqual;
-    }
-
-    public override int GetHashCode()
-    {
-        return HashCode.Combine(a_num, a_den, a_sign);
     }
 
     #endregion

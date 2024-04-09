@@ -1,0 +1,15 @@
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\bin\Debug\net8.0\Recursivitat2.exe
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\bin\Debug\net8.0\Recursivitat2.deps.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\bin\Debug\net8.0\Recursivitat2.runtimeconfig.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\bin\Debug\net8.0\Recursivitat2.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\bin\Debug\net8.0\Recursivitat2.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\Recursivitat2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\Recursivitat2.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\Recursivitat2.AssemblyInfo.cs
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\Recursivitat2.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\Recursivitat2.sourcelink.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\Recursivitat2.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\refint\Recursivitat2.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\Recursivitat2.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\Recursivitat2.genruntimeconfig.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Recursivitat2\Recursivitat2\obj\Debug\net8.0\ref\Recursivitat2.dll
