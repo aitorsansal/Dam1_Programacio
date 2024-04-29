@@ -1,0 +1,15 @@
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\bin\Debug\net8.0\Start of OOP.exe
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\bin\Debug\net8.0\Start of OOP.deps.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\bin\Debug\net8.0\Start of OOP.runtimeconfig.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\bin\Debug\net8.0\Start of OOP.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\bin\Debug\net8.0\Start of OOP.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\Start of OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\Start of OOP.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\Start of OOP.AssemblyInfo.cs
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\Start of OOP.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\Start of OOP.sourcelink.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\Start of OOP.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\refint\Start of OOP.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\Start of OOP.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\Start of OOP.genruntimeconfig.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\Start of OOP\Start of OOP\obj\Debug\net8.0\ref\Start of OOP.dll

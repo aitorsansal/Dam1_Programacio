@@ -8,29 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d48d3e1-6610-434a-9c0e-bbf06d105e26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/Equip.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/equips.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuaGenerica/CuaGenerica/Queue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PilaDinamica/PilaDinamica/Node.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PilaDinamica/PilaDinamica/Pila.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/ArrayListOrdenacions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/ArrayListOrdenacions.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/TaulaLlistaGenerica.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/TaulaLlistaGenerica.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/Fraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/Fraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CercaDicotomicaVSLineal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CercaDicotomicaVSLineal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CercaDicotomicaVSLineal/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CercaDicotomicaVSLineal/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CercaDicotomicaVSLineal/obj/Debug/net8.0/CercaDicotomicaVSLineal.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CercaDicotomicaVSLineal/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CercaDicotomicaVSLineal/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CercaDicotomicaVSLineal/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CercaDicotomicaVSLineal/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/Debug/net8.0/FractionClassExercise.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/FractionClassExercise.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/FractionClassExercise.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/FractionClassExercise.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/FractionClassExercise.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../FractionClassExercise/FractionClassExercise/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/Debug/net8.0/TaulaLlistaGenerica.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/Debug/net8.0/TaulaLlistaGenerica.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/Debug/net8.0/TaulaLlistaGenerica.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/Debug/net8.0/TaulaLlistaGenerica.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +93,7 @@
       <workItem from="1712437132435" duration="1341000" />
       <workItem from="1712588581571" duration="278000" />
       <workItem from="1712596617558" duration="1475000" />
+      <workItem from="1712927224181" duration="1551000" />
     </task>
     <servers />
   </component>

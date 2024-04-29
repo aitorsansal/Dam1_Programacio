@@ -1,0 +1,15 @@
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\bin\Debug\net8.0\SuperMarket.exe
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\bin\Debug\net8.0\SuperMarket.deps.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\bin\Debug\net8.0\SuperMarket.runtimeconfig.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\bin\Debug\net8.0\SuperMarket.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\bin\Debug\net8.0\SuperMarket.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.AssemblyInfo.cs
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.sourcelink.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\refint\SuperMarket.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.genruntimeconfig.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\ref\SuperMarket.dll

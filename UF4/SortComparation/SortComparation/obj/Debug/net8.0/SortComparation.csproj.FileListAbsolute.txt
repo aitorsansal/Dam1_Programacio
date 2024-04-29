@@ -1,0 +1,15 @@
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\bin\Debug\net8.0\SortComparation.exe
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\bin\Debug\net8.0\SortComparation.deps.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\bin\Debug\net8.0\SortComparation.runtimeconfig.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\bin\Debug\net8.0\SortComparation.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\bin\Debug\net8.0\SortComparation.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\SortComparation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\SortComparation.AssemblyInfoInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\SortComparation.AssemblyInfo.cs
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\SortComparation.csproj.CoreCompileInputs.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\SortComparation.sourcelink.json
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\SortComparation.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\refint\SortComparation.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\SortComparation.pdb
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\SortComparation.genruntimeconfig.cache
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF4\SortComparation\SortComparation\obj\Debug\net8.0\ref\SortComparation.dll
