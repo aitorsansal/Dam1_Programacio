@@ -13,3 +13,6 @@ C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug
 C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.pdb
 C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\SuperMarket.genruntimeconfig.cache
 C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\obj\Debug\net8.0\ref\SuperMarket.dll
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\bin\Debug\net8.0\CASHIERS.TXT
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\bin\Debug\net8.0\CUSTOMERS.TXT
+C:\Users\aitorsansal\DAM1\Dam1_Programacio\UF5\SuperMarket\SuperMarket\bin\Debug\net8.0\GROCERIES.TXT
