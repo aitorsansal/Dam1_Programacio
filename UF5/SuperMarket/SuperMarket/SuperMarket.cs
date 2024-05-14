@@ -17,6 +17,7 @@ public class SuperMarket
     public Dictionary<string, Person> Customers => customers;
     public SortedDictionary<int, Item> Warehouse => warehouse;
     public int ActiveLines => activeLines;
+    public CheckOutLine?[] Lines => lines;
     
 
     public SuperMarket(string name, string adress, string fileCashiers, string fileCustomers, string fileItems,
@@ -30,8 +31,9 @@ public class SuperMarket
         for (int i = 0; i < activeLines; i++)
         {
             lines[i] = new CheckOutLine(GetAvailableCashier(), i + 1);
-            this.activeLines++;
         }
+
+        this.activeLines = activeLines;
     }
 
     private SortedDictionary<int,Item> LoadWarehouse(string fileName)
@@ -158,5 +160,15 @@ public class SuperMarket
                 sb.Append(line);
         }
         return sb.ToString();
+    }
+
+    public static bool CloseCheckOutLine(SuperMarket super, int lineToRemove)
+    {
+        CheckOutLine? line = super.GetCheckOutLine(lineToRemove);
+        if (line is null || !line.Empty) return false;
+        line.Cashier.Active = false;
+        super.lines[lineToRemove-1] = null;
+        super.activeLines--;
+        return true;
     }
 }

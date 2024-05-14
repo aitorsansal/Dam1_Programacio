@@ -9,6 +9,8 @@ public class CheckOutLine(Person responsible, int number)
     private Person cashier = responsible;
     private bool active = true;
     public int Number => number;
+    public bool Empty => queue.Count == 0;
+    public Person Cashier => cashier;
     public bool CheckIn(ShoppingCart shoppingCart)
     {
         if (active)

@@ -11,7 +11,7 @@ public class Item : IComparable<Item>
     private char currency = '\u20AC';
     private int code;
     private string description;
-    private bool onSale = false;
+    private bool onSale;
     private double price;
     private Category category;
     private Packaging packaging;
@@ -28,20 +28,14 @@ public class Item : IComparable<Item>
         stock = r.Next(minStock, 500);
         this.price = price;
         this.category = (Category)category;
-        switch (packaging)
+        onSale = r.Next(5) == 4;
+        this.packaging = packaging switch
         {
-            case 'K':
-                this.packaging = Packaging.Kg;
-                break;
-            case 'U':
-                this.packaging = Packaging.Unit;
-                break;
-            case 'P':
-                this.packaging = Packaging.Package;
-                break;
-            default:
-                throw new Exception("The type of packaging is incorrect");
-        }
+            'K' => Packaging.Kg,
+            'U' => Packaging.Unit,
+            'P' => Packaging.Package,
+            _ => throw new Exception("The type of packaging is incorrect")
+        };
     }
 
     public double Stock => stock;

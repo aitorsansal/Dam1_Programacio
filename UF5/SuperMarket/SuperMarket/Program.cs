@@ -25,10 +25,7 @@ namespace Super
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-
-
             SuperMarket super = new SuperMarket("HIPERCAR", "C/Barna 99", "CASHIERS.TXT", "CUSTOMERS.TXT", "GROCERIES.TXT", 2);
-            //
             Dictionary<Customer,ShoppingCart> carrosPassejant= new Dictionary<Customer,ShoppingCart>();
 
             ConsoleKeyInfo tecla;
@@ -44,47 +41,34 @@ namespace Super
                         break;
                     case ConsoleKey.D2:
                         DoAfegirUnArticleAlCarro(carrosPassejant, super);
-                      
                         break;
                     case ConsoleKey.D3:
                         DoCheckIn(carrosPassejant, super); 
-                       
                         break;
                      case ConsoleKey.D4:
                         if (DoCheckOut(super)) Console.WriteLine("BYE BYE. HOPE 2 SEE YOU AGAIN!");
                         else Console.WriteLine("NO S'HA POGUT TANCAR CAP COMPRA");
                         MsgNextScreen("PREM UNA TECLA PER ANAR AL MENÚ PRINCIPAL");
-                      
                         break;
                     case ConsoleKey.D5:
                         DoOpenCua(super);
-                     
                         break;
                     case ConsoleKey.D6:
                         DoInfoCues(super);
-                        
                         break;
-
                     case ConsoleKey.D7:
                         DoClientsComprant(carrosPassejant);
-                        
-
                         break;
                     case ConsoleKey.D8:
                         DoListCustomers(super);
-                       
                         break;
-
                     case ConsoleKey.D9:
                         HashSet<Item> articlesOrdenatsPerEstoc = super.GetItemsByStock();
                         DoListArticlesByStock("LLISTAT D'ARTICLES - DATA " + DateTime.Now, articlesOrdenatsPerEstoc.OrderBy(x => x.Stock).ToHashSet());
-                        
                         break;
                     case ConsoleKey.A:
                         DoCloseQueue(super);
-                        
                         break;
-
                     case ConsoleKey.D0:
                         MsgNextScreen("PRESS ANY KEY 2 EXIT");
                         break;
@@ -92,11 +76,9 @@ namespace Super
                         MsgNextScreen("Error. Prem una tecla per tornar al menú...");
                         break;
                 }
-
             } while (tecla.Key != ConsoleKey.D0);
-            
-
         }
+        
         //OPCIO 1 - Entra un nou client i se li assigna un carro de la compra. S'omple el carro de la compra
         /// <summary>
         /// Crea un nou carro de la compra assignat a un Customer inactiu
@@ -168,15 +150,8 @@ namespace Super
             {
                 Random r = new();
                 ShoppingCart carro = carros.ElementAt(r.Next(0, carros.Count)).Value;
-                int count = SuperMarket.MAX_LINES;
-                int activeCount = r.Next(1, super.ActiveLines);
-                while (activeCount != 0)
-                {
-                    if (super.GetCheckOutLine(count) is not null) activeCount--;
-                    count--;
-                }
-                
-                CheckOutLine line = super.GetCheckOutLine(count);
+                var lines = super.Lines.Where(x => x is not null).ToArray();
+                CheckOutLine line = lines[r.Next(lines.Length)];
                 line.CheckIn(carro);
                 carros.Remove(carro.Customer);
                 Console.WriteLine($"El client {carro.Customer.FullName} ha entrat a la línia {line.Number}");
@@ -317,7 +292,6 @@ namespace Super
 
             Console.Clear();
             var orderedCustomers = super.Customers.Values.OrderBy(x => x.GetRating).ToList();
-            orderedCustomers.Sort();
             foreach (var customer in orderedCustomers)
             {
                 Console.WriteLine(customer);
@@ -336,8 +310,12 @@ namespace Super
         {
             Console.Clear();
             Console.WriteLine(header);
-            
-
+            var orderedItems = items.ToList();
+            orderedItems.Sort();
+            foreach (var item in orderedItems)
+            {
+                Console.WriteLine(item);
+            }
             MsgNextScreen("PREM UNA TECLA PER CONTINUAR");
         }
 
@@ -355,9 +333,15 @@ namespace Super
         public static void DoCloseQueue(SuperMarket super)
         {
             Console.Clear();
-             
-
-
+            if(super.ActiveLines == 0)
+                Console.WriteLine("Totes les línies estàn ja tancades.");
+            else
+            {
+                int i = SuperMarket.MAX_LINES;
+                while (i > 0 && !SuperMarket.CloseCheckOutLine(super, i))
+                    i--;
+                Console.WriteLine($"La línia {i} ha sigut tancada correctament.");
+            }
             MsgNextScreen("PREM UNA TECLA PER CONTINUAR");
         }
 
