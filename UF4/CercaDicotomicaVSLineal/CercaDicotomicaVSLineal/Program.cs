@@ -12,7 +12,6 @@ internal class Program
             {
                 table[j-1] = j * 2;
             }
-
             Random r = new Random();
             double dicoCompleteCost = 0, linealCompleteCost = 0;
             for (int j = 0; j < i; j++)
@@ -28,14 +27,13 @@ internal class Program
         }
         sw.Close();
     }
-
     private static int LinealSearch(int toSearch, int[] table)
     {
         bool found = false;
         int count = 0;
         for (int i = 0; i < table.Length && !found; i++)
         {
-            found = table[i] == toSearch;
+            found = table[i] >= toSearch;
             count++;
         }
         return count;

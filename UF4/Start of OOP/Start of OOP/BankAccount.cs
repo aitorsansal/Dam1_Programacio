@@ -31,7 +31,8 @@ namespace GestioBancaria
         public BankAccount(string accountNumber, string holderName, string holderSurname)
             : this(accountNumber, holderName, holderSurname, 0)
         { }
-        
+
+        public double Balance => balance;
         private void UpdateBalance(double amount)
         {
             balance += amount;
@@ -112,20 +113,27 @@ namespace GestioBancaria
             return newBankAccount;
         }
 
-        public override string ToString()
+        // public override string ToString()
+        // {
+        //     StringBuilder sb = new();
+        //     sb.Append($"Num c.c --> {accountNumber}");
+        //     sb.Append("\n");
+        //     sb.Append($"Titular --> {holderSurname}, {holderName}");
+        //     sb.Append("\n");
+        //     sb.Append($"Saldo --> {Math.Round(balance, 2)}");
+        //     if (locked)
+        //     {
+        //         sb.Append("\n");
+        //         sb.Append("Compte bloquejat");
+        //     }
+        //     return sb.ToString();
+        // }
+
+        public static BankAccount operator ++(BankAccount ba)
         {
-            StringBuilder sb = new();
-            sb.Append($"Num c.c --> {accountNumber}");
-            sb.Append("\n");
-            sb.Append($"Titular --> {holderSurname}, {holderName}");
-            sb.Append("\n");
-            sb.Append($"Saldo --> {Math.Round(balance, 2)}");
-            if (locked)
-            {
-                sb.Append("\n");
-                sb.Append("Compte bloquejat");
-            }
-            return sb.ToString();
+            ba.balance++;
+            return ba;
+            // return new BankAccount(ba.accountNumber, ba.holderName, ba.holderSurname, ba.balance + 1);
         }
     }
 }
