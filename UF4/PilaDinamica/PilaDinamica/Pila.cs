@@ -27,10 +27,7 @@ public class Pila<T>: IList<T>
             top = node;
         }
         else
-        {
             top = node;
-        }
-
         count++;
     }
 
@@ -45,7 +42,6 @@ public class Pila<T>: IList<T>
             top = top.Seg;
             tmp.Seg = null;
         }
-
         count--;
         return dada;
     }
@@ -72,7 +68,6 @@ public class Pila<T>: IList<T>
             yield return cursor.Info;
             cursor = cursor.Seg;
         }
-
     }
 
     IEnumerator IEnumerable.GetEnumerator()
@@ -104,16 +99,18 @@ public class Pila<T>: IList<T>
             if (cursor.Info.Equals(item)) found = true;
             else cursor = cursor.Seg;
         }
-
         return found;
     }
 
     public void CopyTo(T[] array, int arrayIndex)
     {
-        if (array == null) throw new ArgumentNullException(nameof(array));
-        if (arrayIndex < 0) throw new ArgumentOutOfRangeException(nameof(arrayIndex));
+        if (array == null) 
+            throw new ArgumentNullException(nameof(array));
+        if (arrayIndex < 0) 
+            throw new ArgumentOutOfRangeException(nameof(arrayIndex));
         if (array.Length <= arrayIndex+Count)
-            throw new ArgumentException($"The array lenght should be greater than the stack length: {Count}");
+            throw new 
+                ArgumentException($"The array lenght should be greater than the stack length: {Count}");
         Node<T> cursor = top;
         while (cursor != null)
         {
@@ -134,13 +131,9 @@ public class Pila<T>: IList<T>
             if (cursor.Info.Equals(item))
             {
                 if(last == null)
-                {
                     top = cursor.Seg;
-                }
                 else
-                {
                     last.Seg = cursor.Seg;
-                }
                 worked = true;
                 count--;
             }
@@ -167,7 +160,6 @@ public class Pila<T>: IList<T>
             else
                 index++;
         }
-
         enumerator.Dispose();
         return found ? index : -1;
     }
@@ -199,13 +191,15 @@ public class Pila<T>: IList<T>
     {
         get
         {
-            if (index < 0 || index >= Count) throw new ArgumentOutOfRangeException(nameof(index));
+            if (index < 0 || index >= Count) 
+                throw new ArgumentOutOfRangeException(nameof(index));
             return GoTo(index).Info;
         }
         set
         {
             if (IsReadOnly) throw new NotSupportedException();
-            if (index < 0 || index >= Count) throw new ArgumentOutOfRangeException(nameof(index));
+            if (index < 0 || index >= Count) 
+                throw new ArgumentOutOfRangeException(nameof(index));
             GoTo(index).Info = value;
         }
     }

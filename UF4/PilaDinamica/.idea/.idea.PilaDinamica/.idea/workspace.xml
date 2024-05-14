@@ -8,19 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f5afe9-fe42-4a7f-9234-ac1e37c438bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/Equip.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/equips.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CuaGenerica/CuaGenerica/Queue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PilaDinamica/Node.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PilaDinamica/Pila.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/ArrayListOrdenacions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/ArrayListOrdenacions.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/TaulaLlistaGenerica.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/TaulaLlistaGenerica.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListOrdenacions/ArrayListOrdenacions/obj/Debug/net8.0/ArrayListOrdenacions.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/Debug/net8.0/TaulaLlistaGenerica.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/Debug/net8.0/TaulaLlistaGenerica.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/Debug/net8.0/TaulaLlistaGenerica.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/Debug/net8.0/TaulaLlistaGenerica.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaulaLlistaGenerica/TaulaLlistaGenerica/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PilaDinamica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PilaDinamica/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/Pila.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/Pila.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/Debug/net8.0/PilaDinamica.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/Debug/net8.0/PilaDinamica.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/Debug/net8.0/PilaDinamica.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/Debug/net8.0/PilaDinamica.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/Debug/net8.0/PilaDinamica.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/Debug/net8.0/PilaDinamica.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/Debug/net8.0/PilaDinamica.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/Debug/net8.0/PilaDinamica.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/PilaDinamica.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/PilaDinamica.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/PilaDinamica.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/PilaDinamica.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PilaDinamica/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PilaDinamica/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +56,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\aitorsansal\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\aitorsansal\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\aitorsansal\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\TiaSanchez\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\TiaSanchez\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\TiaSanchez\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -92,6 +92,7 @@
       <updated>1712075541574</updated>
       <workItem from="1712075543189" duration="2919000" />
       <workItem from="1712322667556" duration="7455000" />
+      <workItem from="1712658222680" duration="1739000" />
     </task>
     <servers />
   </component>
