@@ -1,4 +1,4 @@
-﻿namespace SuperMarket;
+﻿namespace Super;
 
 public class Item : IComparable<Item>
 {
@@ -24,7 +24,8 @@ public class Item : IComparable<Item>
         code = newItemId;
         newItemId++;
         this.description = description;
-        this.onSale = onSale;
+        Random r = new Random();
+        stock = r.Next(minStock, 500);
         this.price = price;
         this.category = (Category)category;
         switch (packaging)
@@ -58,24 +59,25 @@ public class Item : IComparable<Item>
     }
     public int CompareTo(Item? other)
     {
-        return stock.CompareTo(other.stock);
+        return other is null ? 1 : stock.CompareTo(other.stock);
     }
 
     public override string ToString()
     {
         return
-            $"CODE →{code} DESCRIPTION →{Description}\tCATEGORY→{GetCategory}\tSTOCK→{Stock}\tMIN_STOCK→{MinStock}\tPRICE→{price}{currency}\tON SALE→{(OnSale ? $"Y ({Price}{currency})" : "N")}";
+            $"CODE→{code} // DESCRIPTION→{Description} // CATEGORY→{GetCategory} // STOCK→{Stock} // MIN_STOCK→{MinStock} // " +
+            $"PRICE→{price}{currency} // ON SALE→{(OnSale ? $"Y ({Price}{currency})" : "N")}";
     }
 
     public override bool Equals(object? obj)
     {
         if (obj is null) return this is null;
         if (obj is not Item item) return false;
-        return code == item.code && description == item.description;
+        return code == item.code;
     }
 
     public override int GetHashCode()
     {
-        return HashCode.Combine(code, description);
+        return HashCode.Combine(code);
     }
 }

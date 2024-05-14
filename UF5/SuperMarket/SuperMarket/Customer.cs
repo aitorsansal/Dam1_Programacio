@@ -1,12 +1,12 @@
-﻿namespace SuperMarket;
+﻿namespace Super;
 
 public class Customer : Person
 {
     private int? _fidelity_card;
 
-    protected override double GetRating => _totalInvoiced * .02;
+    public override double GetRating => _totalInvoiced * .02;
 
-    protected override void AddPoints(int pointsToAdd)
+    public override void AddPoints(int pointsToAdd)
     {
         if (_id != "CASH" && _fidelity_card is not null)
             _points += pointsToAdd;
@@ -20,6 +20,6 @@ public class Customer : Person
 
     public override string ToString()
     {
-        return $"DNI/NIE →{_id} NOM →{_fullName}\tRATING →{GetRating}\tVENDES →{_totalInvoiced}\u20AC\tPUNTS →{_points}\t{base.ToString()}";
+        return $"DNI/NIE →{_id} NOM →{_fullName} RATING →{GetRating} VENDES →{_totalInvoiced}\u20AC PUNTS →{_points} {base.ToString()}";
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace SuperMarket;
+﻿namespace Super;
 
 public abstract class Person : IComparable<Person>
 {
@@ -14,10 +14,10 @@ public abstract class Person : IComparable<Person>
         set => active = value;
     }
 
-    protected abstract double GetRating { get; }
+    public abstract double GetRating { get; }
     public string FullName => _fullName;
     
-    protected abstract void AddPoints(int pointsToAdd);
+    public abstract void AddPoints(int pointsToAdd);
     
     protected Person(string id, string fullName, int points)
     {
@@ -31,7 +31,7 @@ public abstract class Person : IComparable<Person>
 
     public int CompareTo(Person? other)
     {
-        return other != null ? _points.CompareTo(other._points) : 1;
+        return other != null ? -_points.CompareTo(other._points) : 1;
     }
 
     public void AddInvoiceAmount(double amount)

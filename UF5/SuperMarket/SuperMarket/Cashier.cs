@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
 
-namespace SuperMarket;
+namespace Super;
 
 public class Cashier : Person
 {
@@ -9,9 +9,9 @@ public class Cashier : Person
     public int YearsOfService => GetDays()/ 365;
 
 
-    protected override double GetRating => GetDays() * _totalInvoiced * .1;
+    public override double GetRating => GetDays() * _totalInvoiced * .1;
 
-    protected override void AddPoints(int pointsToAdd)
+    public override void AddPoints(int pointsToAdd)
     {
         _points += pointsToAdd * (YearsOfService + 1);
     }
