@@ -16,6 +16,7 @@ public abstract class Person : IComparable<Person>
 
     public abstract double GetRating { get; }
     public string FullName => _fullName;
+    public int Points => _points;
     
     public abstract void AddPoints(int pointsToAdd);
     

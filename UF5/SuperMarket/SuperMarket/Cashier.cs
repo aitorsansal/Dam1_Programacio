@@ -16,10 +16,9 @@ public class Cashier : Person
         _points += pointsToAdd * (YearsOfService + 1);
     }
 
-    public Cashier(string id, string fullName, string joinDate) : base(id, fullName, 0)
+    public Cashier(string id, string fullName, DateTime joinDate) : base(id, fullName, 0)
     {
-        _joiningDate = DateTime.ParseExact(joinDate, "dd/MM/yyyy H:mm:ss",
-            System.Globalization.CultureInfo.InvariantCulture);
+        _joiningDate = joinDate;
     }
 
 

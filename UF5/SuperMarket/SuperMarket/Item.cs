@@ -37,6 +37,21 @@ public class Item : IComparable<Item>
             _ => throw new Exception("The type of packaging is incorrect")
         };
     }
+    public Item(int code, string description, bool onSale, double price, Category category,
+        Packaging packaging, int stock, int minStock)
+    {
+        if (stock < minStock)
+            throw new Exception("The stock cannot be less than the min stock.");
+        this.code = code;
+        this.description = description;
+        Random r = new Random();
+        this.stock = stock;
+        this.minStock = minStock;
+        this.price = price;
+        this.category = category;
+        this.onSale = onSale;
+        this.packaging = packaging;
+    }
 
     public double Stock => stock;
     public int MinStock => minStock;

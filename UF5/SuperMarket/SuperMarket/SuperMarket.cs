@@ -81,7 +81,9 @@ public class SuperMarket
             while (!string.IsNullOrEmpty(line))
             {
                 var sp = line.Split(";");
-                staff.Add(sp[0], new Cashier(sp[0], sp[1], sp[3]));
+                DateTime dt = DateTime.ParseExact(sp[3], "dd/MM/yyyy H:mm:ss",
+                    System.Globalization.CultureInfo.InvariantCulture);
+                staff.Add(sp[0], new Cashier(sp[0], sp[1], dt));
                 line = sr.ReadLine();
             }
         }
