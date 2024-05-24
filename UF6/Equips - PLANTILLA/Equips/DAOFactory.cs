@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace DAO_Pattern
 {   public enum DataSource { XML, MySQL}
     public class DAOTeamFactory<Team>
     {
         
-        public IDAO<Team> CreateDAOTeamInstance(DataSource source)
-        {   IDAO<Team> dao=null;
+        public static IDAO<Team> CreateDAOTeamInstance(DataSource source)
+        {   
+            IDAO<Team> dao=null;
             switch (source)
             {
                 case DataSource.MySQL:

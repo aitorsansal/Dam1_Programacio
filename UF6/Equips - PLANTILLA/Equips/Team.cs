@@ -13,12 +13,16 @@ namespace DAO_Pattern
         private int budget;
         private string logoLink;
         public Team() { }
-        public Team(string avb, string name, int budget, string logoLink)
+        public Team(string avb, string name, int budget, string logoLink) : this(avb)
         {
-            this.Avb = avb;
             this.Name = name;
             this.Budget = budget;
             this.LogoLink = logoLink;
+        }
+
+        public Team(string avb)
+        {
+            this.Avb = avb;
         }
 
         public string Avb { get => avb; set => avb = value; }
@@ -29,7 +33,7 @@ namespace DAO_Pattern
         public int CompareTo(Team? other)
         {
             if (other == null) return 1;
-            else return this.Budget - other.Budget;
+            return this.Budget - other.Budget;
 
         }
 

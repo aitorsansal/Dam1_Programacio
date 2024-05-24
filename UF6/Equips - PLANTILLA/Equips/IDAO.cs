@@ -12,7 +12,7 @@ namespace DAO_Pattern
         T GetValue(string abv);
         void Save(T value);
         void Update(string abreviacio, T updatedTeam);
-        void Delete(string id);
+        bool Delete(string id);
 
     }
 }

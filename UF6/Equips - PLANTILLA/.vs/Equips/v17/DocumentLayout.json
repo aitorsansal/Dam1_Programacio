@@ -1,38 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\",
+  "WorkspaceRootPath": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|e:\\docencia\\m03\\uf6\\equips - plantilla\\equips\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|e:\\docencia\\m03\\uf6\\equips - plantilla\\equips\\daofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\daofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|e:\\docencia\\m03\\uf6\\equips - plantilla\\equips\\idaoteamxmlimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\idaoteamxmlimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|e:\\docencia\\m03\\uf6\\equips - plantilla\\equips\\idaoteamimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\equips\\idaoteamimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\idaoteamimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|e:\\docencia\\m03\\uf6\\equips - plantilla\\equips\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\equips\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|e:\\docencia\\m03\\uf6\\equips - plantilla\\equips\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|c:\\users\\aitorsansal\\dam1\\dam1_programacio\\uf6\\equips - plantilla\\equips\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|c:\\users\\aitorsansal\\dam1\\dam1_programacio\\uf6\\equips - plantilla\\equips\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|e:\\docencia\\m03\\uf6\\equips - plantilla\\equips\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|c:\\users\\aitorsansal\\dam1\\dam1_programacio\\uf6\\equips - plantilla\\equips\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|c:\\users\\aitorsansal\\dam1\\dam1_programacio\\uf6\\equips - plantilla\\equips\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\equips\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\equips\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|c:\\users\\aitorsansal\\dam1\\dam1_programacio\\uf6\\equips - plantilla\\equips\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|c:\\users\\aitorsansal\\dam1\\dam1_programacio\\uf6\\equips - plantilla\\equips\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\equips\\daofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\daofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\equips\\idaoteamxmlimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\idaoteamxmlimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\equips\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A18A69-5D65-488B-9E8C-9EE1726606B9}|Equips\\Equips.csproj|solutionrelative:equips\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,72 +58,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DAOFactory.cs",
-              "DocumentMoniker": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\DAOFactory.cs",
-              "RelativeDocumentMoniker": "Equips\\DAOFactory.cs",
-              "ToolTip": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\DAOFactory.cs",
-              "RelativeToolTip": "Equips\\DAOFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAvwAwAAAAbAAAA",
+              "DocumentIndex": 5,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Equips\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form2.Designer.cs",
+              "RelativeToolTip": "Equips\\Form2.Designer.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAiwCkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T09:30:37.76Z",
+              "WhenOpened": "2024-05-24T17:06:00.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IDAOTeamXMLImpl.cs",
-              "DocumentMoniker": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\IDAOTeamXMLImpl.cs",
-              "RelativeDocumentMoniker": "Equips\\IDAOTeamXMLImpl.cs",
-              "ToolTip": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\IDAOTeamXMLImpl.cs",
-              "RelativeToolTip": "Equips\\IDAOTeamXMLImpl.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwA0AAAAFAAAA",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Program.cs",
+              "RelativeDocumentMoniker": "Equips\\Program.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Program.cs",
+              "RelativeToolTip": "Equips\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T08:34:44.694Z",
+              "WhenOpened": "2024-05-24T16:38:21.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Form1.resx",
-              "DocumentMoniker": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\Form1.resx",
-              "RelativeDocumentMoniker": "Equips\\Form1.resx",
-              "ToolTip": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\Form1.resx",
-              "RelativeToolTip": "Equips\\Form1.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-21T07:56:31.471Z",
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Team.cs",
+              "RelativeDocumentMoniker": "Equips\\Team.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Team.cs",
+              "RelativeToolTip": "Equips\\Team.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvw8AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:33:53.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\Form1.cs",
+              "DocumentIndex": 8,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form2.cs",
+              "RelativeDocumentMoniker": "Equips\\Form2.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Equips\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:30:43.356Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form2.cs",
+              "RelativeDocumentMoniker": "Equips\\Form2.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form2.cs",
+              "RelativeToolTip": "Equips\\Form2.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIA9wB0AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:34:06.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form1.cs",
               "RelativeDocumentMoniker": "Equips\\Form1.cs",
-              "ToolTip": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\Form1.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Equips\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:31:59.989Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form1.cs",
+              "RelativeDocumentMoniker": "Equips\\Form1.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form1.cs",
               "RelativeToolTip": "Equips\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T07:51:48.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "DAOFactory.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\DAOFactory.cs",
+              "RelativeDocumentMoniker": "Equips\\DAOFactory.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\DAOFactory.cs",
+              "RelativeToolTip": "Equips\\DAOFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAvwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:30:37.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDAOTeamXMLImpl.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\IDAOTeamXMLImpl.cs",
+              "RelativeDocumentMoniker": "Equips\\IDAOTeamXMLImpl.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\IDAOTeamXMLImpl.cs",
+              "RelativeToolTip": "Equips\\IDAOTeamXMLImpl.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA2wBIAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:34:44.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "IDAOTeamImpl.cs",
-              "DocumentMoniker": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\IDAOTeamImpl.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\IDAOTeamImpl.cs",
               "RelativeDocumentMoniker": "Equips\\IDAOTeamImpl.cs",
-              "ToolTip": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\IDAOTeamImpl.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\IDAOTeamImpl.cs",
               "RelativeToolTip": "Equips\\IDAOTeamImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T07:48:43.644Z",
               "EditorCaption": ""
@@ -116,39 +192,27 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Equips\\Form1.Designer.cs",
-              "ToolTip": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Form1.Designer.cs",
               "RelativeToolTip": "Equips\\Form1.Designer.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAawD4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T07:45:56.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "IDAO.cs",
-              "DocumentMoniker": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\IDAO.cs",
+              "DocumentMoniker": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\IDAO.cs",
               "RelativeDocumentMoniker": "Equips\\IDAO.cs",
-              "ToolTip": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\IDAO.cs",
+              "ToolTip": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\IDAO.cs",
               "RelativeToolTip": "Equips\\IDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T07:45:13.14Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\Form1.cs",
-              "RelativeDocumentMoniker": "Equips\\Form1.cs",
-              "ToolTip": "E:\\DOCENCIA\\M03\\UF6\\Equips - PLANTILLA\\Equips\\Form1.cs [Design]",
-              "RelativeToolTip": "Equips\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:42:57.95Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

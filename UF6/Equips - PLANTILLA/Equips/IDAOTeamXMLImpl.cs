@@ -13,15 +13,28 @@ namespace DAO_Pattern
     public class IDAOTeamXMLImpl : IDAO<Team>
     {
         string xmlFile = "EQUIPS.XML";
-        public void Delete(string id)
+        public bool Delete(string id)
         {
-            throw new NotImplementedException();
+            XDocument docEquips = XDocument.Load(xmlFile);
+            XElement e = docEquips.XPathSelectElement($"/EQUIPS/EQUIP[ABREVIACIO='{id}']");
+            if (e is null) return false;
+            e.Remove();
+            docEquips.Save(xmlFile);
+            return true;
+
         }
 
         public HashSet<Team> GetAll()
         {
-           
-            return null;
+            XDocument docEquips = XDocument.Load(xmlFile);
+            var all = docEquips.XPathSelectElements($"/EQUIPS/EQUIP");
+            HashSet<Team> allTeams = new();
+            foreach (var e in all)
+            {
+                allTeams.Add(new Team(e.Element("ABREVIACIO").Value, e.Element("NOM").Value, Convert.ToInt32(e.Element("PRESSUPOST").Value), e.Element("LOGO").Value));
+            }
+
+            return allTeams;
         }
 
         public Team GetValue(string abv)
@@ -38,12 +51,28 @@ namespace DAO_Pattern
 
         public void Save(Team value)
         {
-            throw new NotImplementedException();
+            var allTeams = GetAll();
+            if (!allTeams.Contains(value))
+            {
+                XDocument doc = XDocument.Load(xmlFile);
+                XElement root = new XElement("EQUIP");
+                root.Add(new XElement("ABREVIACIO", value.Avb));
+                root.Add(new XElement("NOM", value.Name));
+                root.Add(new XElement("PRESSUPOST", value.Budget));
+                root.Add(new XElement("LOGO", value.LogoLink));
+                doc.Element("EQUIPS").Add(root);
+                doc.Save(xmlFile);
+            }
         }
 
         public void Update(string abreviacio, Team updatedTeam)
         {
-            throw new NotImplementedException();
+            var doc = XDocument.Load(xmlFile);
+            var team = doc.XPathSelectElement($"/EQUIPS/EQUIP[ABREVIACIO='{abreviacio}']");
+            team.SetElementValue("NAME", updatedTeam.Name);
+            team.SetElementValue("PRESSUPOST", updatedTeam.Budget);
+            team.SetElementValue("LOGO", updatedTeam.LogoLink);
+            doc.Save(xmlFile);
         }
     }
 }

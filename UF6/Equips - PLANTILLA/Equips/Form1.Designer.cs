@@ -29,11 +29,8 @@
         private void InitializeComponent()
         {
             menuStrip1 = new MenuStrip();
-            mnuItemGetTeam = new ToolStripMenuItem();
-            llistarTotsElsEquipsToolStripMenuItem = new ToolStripMenuItem();
-            modificarEquipToolStripMenuItem = new ToolStripMenuItem();
-            eliminarEquipToolStripMenuItem = new ToolStripMenuItem();
-            crearEquiipToolStripMenuItem = new ToolStripMenuItem();
+            mnuOpenExplorerToolStripMenuItem = new ToolStripMenuItem();
+            btnGetTeam = new Button();
             lblAbreviatura = new Label();
             lblNom = new Label();
             lblPressupost = new Label();
@@ -42,6 +39,16 @@
             txtNom = new TextBox();
             txtPressupost = new TextBox();
             dgvEquips = new DataGridView();
+            btnGetSingleTeam = new Button();
+            btnLoadAllTeams = new Button();
+            txtImageLink = new TextBox();
+            lblTeamImage = new Label();
+            btnCreateTeam = new Button();
+            btnDeleteTeam = new Button();
+            btnModifyTeam = new Button();
+            lblInformation = new Label();
+            btnDeleteAll = new Button();
+            btnClear = new Button();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imgLog).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvEquips).BeginInit();
@@ -50,119 +57,223 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { mnuItemGetTeam, llistarTotsElsEquipsToolStripMenuItem, modificarEquipToolStripMenuItem, eliminarEquipToolStripMenuItem, crearEquiipToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { mnuOpenExplorerToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1577, 33);
+            menuStrip1.Padding = new Padding(4, 1, 0, 1);
+            menuStrip1.Size = new Size(1081, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
-            // mnuItemGetTeam
+            // mnuOpenExplorerToolStripMenuItem
             // 
-            mnuItemGetTeam.Name = "mnuItemGetTeam";
-            mnuItemGetTeam.Size = new Size(163, 29);
-            mnuItemGetTeam.Text = "Obtenir un equip";
-            mnuItemGetTeam.Click += mnuItemGetTeam_Click;
+            mnuOpenExplorerToolStripMenuItem.Name = "mnuOpenExplorerToolStripMenuItem";
+            mnuOpenExplorerToolStripMenuItem.Size = new Size(94, 22);
+            mnuOpenExplorerToolStripMenuItem.Text = "Open Explorer";
+            mnuOpenExplorerToolStripMenuItem.Click += mnuOpenExplorerToolStripMenuItem_Click;
             // 
-            // llistarTotsElsEquipsToolStripMenuItem
+            // btnGetTeam
             // 
-            llistarTotsElsEquipsToolStripMenuItem.Name = "llistarTotsElsEquipsToolStripMenuItem";
-            llistarTotsElsEquipsToolStripMenuItem.Size = new Size(194, 29);
-            llistarTotsElsEquipsToolStripMenuItem.Text = "Llistar Tots Els Equips";
-            llistarTotsElsEquipsToolStripMenuItem.Click += llistarTotsElsEquipsToolStripMenuItem_Click;
-            // 
-            // modificarEquipToolStripMenuItem
-            // 
-            modificarEquipToolStripMenuItem.Name = "modificarEquipToolStripMenuItem";
-            modificarEquipToolStripMenuItem.Size = new Size(153, 29);
-            modificarEquipToolStripMenuItem.Text = "Modificar Equip";
-            // 
-            // eliminarEquipToolStripMenuItem
-            // 
-            eliminarEquipToolStripMenuItem.Name = "eliminarEquipToolStripMenuItem";
-            eliminarEquipToolStripMenuItem.Size = new Size(140, 29);
-            eliminarEquipToolStripMenuItem.Text = "Eliminar Equip";
-            // 
-            // crearEquiipToolStripMenuItem
-            // 
-            crearEquiipToolStripMenuItem.Name = "crearEquiipToolStripMenuItem";
-            crearEquiipToolStripMenuItem.Size = new Size(119, 29);
-            crearEquiipToolStripMenuItem.Text = "Crear Equip";
-            crearEquiipToolStripMenuItem.Click += crearEquiipToolStripMenuItem_Click;
+            btnGetTeam.Location = new Point(1200, 215);
+            btnGetTeam.Name = "btnGetTeam";
+            btnGetTeam.Size = new Size(120, 30);
+            btnGetTeam.TabIndex = 4;
             // 
             // lblAbreviatura
             // 
             lblAbreviatura.AutoSize = true;
-            lblAbreviatura.Location = new Point(910, 92);
+            lblAbreviatura.Location = new Point(655, 35);
+            lblAbreviatura.Margin = new Padding(2, 0, 2, 0);
             lblAbreviatura.Name = "lblAbreviatura";
-            lblAbreviatura.Size = new Size(139, 25);
+            lblAbreviatura.Size = new Size(90, 15);
             lblAbreviatura.TabIndex = 1;
             lblAbreviatura.Text = "ABREVIATURA : ";
             // 
             // lblNom
             // 
             lblNom.AutoSize = true;
-            lblNom.Location = new Point(910, 147);
+            lblNom.Location = new Point(655, 68);
+            lblNom.Margin = new Padding(2, 0, 2, 0);
             lblNom.Name = "lblNom";
-            lblNom.Size = new Size(59, 25);
+            lblNom.Size = new Size(39, 15);
             lblNom.TabIndex = 2;
             lblNom.Text = "NOM:";
             // 
             // lblPressupost
             // 
             lblPressupost.AutoSize = true;
-            lblPressupost.Location = new Point(910, 195);
+            lblPressupost.Location = new Point(655, 97);
+            lblPressupost.Margin = new Padding(2, 0, 2, 0);
             lblPressupost.Name = "lblPressupost";
-            lblPressupost.Size = new Size(121, 25);
+            lblPressupost.Size = new Size(78, 15);
             lblPressupost.TabIndex = 3;
             lblPressupost.Text = "PRESSUPOST:";
             // 
             // imgLog
             // 
-            imgLog.Location = new Point(1092, 300);
+            imgLog.Location = new Point(655, 274);
+            imgLog.Margin = new Padding(2);
             imgLog.Name = "imgLog";
-            imgLog.Size = new Size(249, 195);
-            imgLog.TabIndex = 4;
+            imgLog.Size = new Size(380, 380);
+            imgLog.TabIndex = 5;
             imgLog.TabStop = false;
             imgLog.Click += imgLog_Click;
             // 
             // txtABV
             // 
-            txtABV.Location = new Point(1092, 92);
+            txtABV.Location = new Point(782, 35);
+            txtABV.Margin = new Padding(2);
             txtABV.Name = "txtABV";
-            txtABV.Size = new Size(150, 31);
-            txtABV.TabIndex = 5;
+            txtABV.Size = new Size(200, 23);
+            txtABV.TabIndex = 6;
             txtABV.TextChanged += txtABV_TextChanged;
             txtABV.Enter += txtABV_Enter;
             // 
             // txtNom
             // 
-            txtNom.Location = new Point(1092, 141);
+            txtNom.Location = new Point(782, 65);
+            txtNom.Margin = new Padding(2);
             txtNom.Name = "txtNom";
-            txtNom.Size = new Size(284, 31);
-            txtNom.TabIndex = 6;
+            txtNom.Size = new Size(200, 23);
+            txtNom.TabIndex = 7;
             // 
             // txtPressupost
             // 
-            txtPressupost.Location = new Point(1092, 195);
+            txtPressupost.Location = new Point(782, 97);
+            txtPressupost.Margin = new Padding(2);
             txtPressupost.Name = "txtPressupost";
-            txtPressupost.Size = new Size(150, 31);
-            txtPressupost.TabIndex = 7;
+            txtPressupost.Size = new Size(200, 23);
+            txtPressupost.TabIndex = 8;
             // 
             // dgvEquips
             // 
             dgvEquips.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEquips.Location = new Point(90, 109);
+            dgvEquips.Location = new Point(21, 35);
+            dgvEquips.Margin = new Padding(2);
             dgvEquips.Name = "dgvEquips";
             dgvEquips.RowHeadersWidth = 62;
-            dgvEquips.Size = new Size(692, 611);
+            dgvEquips.Size = new Size(581, 579);
             dgvEquips.TabIndex = 8;
+            // 
+            // btnGetSingleTeam
+            // 
+            btnGetSingleTeam.Location = new Point(698, 171);
+            btnGetSingleTeam.Name = "btnGetSingleTeam";
+            btnGetSingleTeam.Size = new Size(133, 31);
+            btnGetSingleTeam.TabIndex = 9;
+            btnGetSingleTeam.Text = "Obtenir un equip";
+            btnGetSingleTeam.UseVisualStyleBackColor = true;
+            btnGetSingleTeam.Click += bntGetTeam_Click;
+            // 
+            // btnLoadAllTeams
+            // 
+            btnLoadAllTeams.Location = new Point(460, 619);
+            btnLoadAllTeams.Name = "btnLoadAllTeams";
+            btnLoadAllTeams.Size = new Size(142, 34);
+            btnLoadAllTeams.TabIndex = 10;
+            btnLoadAllTeams.Text = "Carrega tots els equips";
+            btnLoadAllTeams.UseVisualStyleBackColor = true;
+            btnLoadAllTeams.Click += btnLoadAllTeams_Click;
+            // 
+            // txtImageLink
+            // 
+            txtImageLink.Location = new Point(782, 130);
+            txtImageLink.Margin = new Padding(2);
+            txtImageLink.Name = "txtImageLink";
+            txtImageLink.Size = new Size(200, 23);
+            txtImageLink.TabIndex = 12;
+            // 
+            // lblTeamImage
+            // 
+            lblTeamImage.AutoSize = true;
+            lblTeamImage.Location = new Point(655, 130);
+            lblTeamImage.Margin = new Padding(2, 0, 2, 0);
+            lblTeamImage.Name = "lblTeamImage";
+            lblTeamImage.Size = new Size(74, 15);
+            lblTeamImage.TabIndex = 11;
+            lblTeamImage.Text = "IMAGE LINK:";
+            // 
+            // btnCreateTeam
+            // 
+            btnCreateTeam.Location = new Point(698, 208);
+            btnCreateTeam.Name = "btnCreateTeam";
+            btnCreateTeam.RightToLeft = RightToLeft.Yes;
+            btnCreateTeam.Size = new Size(133, 31);
+            btnCreateTeam.TabIndex = 13;
+            btnCreateTeam.Text = "Crear equip";
+            btnCreateTeam.UseVisualStyleBackColor = true;
+            btnCreateTeam.Click += btnCreateTeam_Click;
+            // 
+            // btnDeleteTeam
+            // 
+            btnDeleteTeam.Enabled = false;
+            btnDeleteTeam.Location = new Point(863, 208);
+            btnDeleteTeam.Name = "btnDeleteTeam";
+            btnDeleteTeam.Size = new Size(133, 31);
+            btnDeleteTeam.TabIndex = 14;
+            btnDeleteTeam.Text = "Eliminar equip";
+            btnDeleteTeam.UseVisualStyleBackColor = true;
+            btnDeleteTeam.Click += btnDeleteTeam_Click;
+            // 
+            // btnModifyTeam
+            // 
+            btnModifyTeam.Enabled = false;
+            btnModifyTeam.Location = new Point(863, 171);
+            btnModifyTeam.Name = "btnModifyTeam";
+            btnModifyTeam.Size = new Size(133, 31);
+            btnModifyTeam.TabIndex = 15;
+            btnModifyTeam.Text = "Modificar equip";
+            btnModifyTeam.UseVisualStyleBackColor = true;
+            btnModifyTeam.Click += btnModifyTeam_Click;
+            // 
+            // lblInformation
+            // 
+            lblInformation.AutoSize = true;
+            lblInformation.Font = new Font("Segoe UI", 11F);
+            lblInformation.Location = new Point(655, 242);
+            lblInformation.MaximumSize = new Size(400, 0);
+            lblInformation.Name = "lblInformation";
+            lblInformation.Size = new Size(340, 20);
+            lblInformation.TabIndex = 16;
+            lblInformation.Text = "The team that you are trying to find does not exist";
+            lblInformation.Visible = false;
+            // 
+            // btnDeleteAll
+            // 
+            btnDeleteAll.Location = new Point(21, 621);
+            btnDeleteAll.Name = "btnDeleteAll";
+            btnDeleteAll.Size = new Size(142, 34);
+            btnDeleteAll.TabIndex = 17;
+            btnDeleteAll.Text = "Elimina tots els equips";
+            btnDeleteAll.UseVisualStyleBackColor = true;
+            btnDeleteAll.Click += btnDeleteAll_Click;
+            // 
+            // btnClear
+            // 
+            btnClear.Location = new Point(987, 35);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(69, 23);
+            btnClear.TabIndex = 18;
+            btnClear.Text = "Neteja";
+            btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // frmMain
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1577, 937);
+            BackColor = SystemColors.ButtonFace;
+            ClientSize = new Size(1081, 667);
+            Controls.Add(btnClear);
+            Controls.Add(btnDeleteAll);
+            Controls.Add(lblInformation);
+            Controls.Add(btnModifyTeam);
+            Controls.Add(btnDeleteTeam);
+            Controls.Add(btnCreateTeam);
+            Controls.Add(txtImageLink);
+            Controls.Add(lblTeamImage);
+            Controls.Add(btnLoadAllTeams);
+            Controls.Add(btnGetSingleTeam);
             Controls.Add(dgvEquips);
             Controls.Add(txtPressupost);
             Controls.Add(txtNom);
@@ -173,6 +284,7 @@
             Controls.Add(lblAbreviatura);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
+            Margin = new Padding(2);
             Name = "frmMain";
             Text = "APP EQUIPS";
             Load += frmMain_Load;
@@ -187,7 +299,7 @@
         #endregion
 
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem mnuItemGetTeam;
+        private Button btnGetTeam;
         private Label lblAbreviatura;
         private Label lblNom;
         private Label lblPressupost;
@@ -195,10 +307,17 @@
         private TextBox txtABV;
         private TextBox txtNom;
         private TextBox txtPressupost;
-        private ToolStripMenuItem llistarTotsElsEquipsToolStripMenuItem;
-        private ToolStripMenuItem modificarEquipToolStripMenuItem;
-        private ToolStripMenuItem eliminarEquipToolStripMenuItem;
-        private ToolStripMenuItem crearEquiipToolStripMenuItem;
         private DataGridView dgvEquips;
+        private Button btnGetSingleTeam;
+        private Button btnLoadAllTeams;
+        private TextBox txtImageLink;
+        private Label lblTeamImage;
+        private Button btnCreateTeam;
+        private Button btnDeleteTeam;
+        private Button btnModifyTeam;
+        private Label lblInformation;
+        private ToolStripMenuItem mnuOpenExplorerToolStripMenuItem;
+        private Button btnDeleteAll;
+        private Button btnClear;
     }
 }
