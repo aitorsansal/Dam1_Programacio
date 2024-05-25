@@ -46,10 +46,10 @@ namespace Equips
         }
 
 
-        IEnumerator SetRedText()
+        IEnumerator<ICoroutinePause> SetRedText()
         {
             lblInformation.ForeColor = Color.Red;
-            yield return new WaitForTime(seconds: .1f);
+            yield return new WaitForTime(seconds: .15f);
             lblInformation.ForeColor = Color.Black;
         }
         async Task SetTextRed()

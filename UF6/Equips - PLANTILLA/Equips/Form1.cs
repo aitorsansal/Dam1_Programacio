@@ -2,6 +2,9 @@ using DAO_Pattern;
 using System.Diagnostics;
 using System.Drawing;
 using System.Text;
+using Pituivan.CoroutineSystem;
+using static Pituivan.CoroutineSystem.Coroutine;
+
 namespace Equips
 {
     public partial class frmMain : Form
@@ -68,7 +71,7 @@ namespace Equips
                 }
                 else
                 {
-                    ShowAndHideInformationLabel(2, @"No existeix l'equip sol·licitat");
+                    StartCoroutine(ShowAndHideInformationLabel(2, @"No existeix l'equip sol·licitat"));
                 }
             }
             else if (dgvEquips.GetCellCount(DataGridViewElementStates.Selected) <= 1)
@@ -88,7 +91,7 @@ namespace Equips
             }
             else
             {
-                ShowAndHideInformationLabel(2, @"Abreviació entrada incorrecte");
+                StartCoroutine(ShowAndHideInformationLabel(2, @"Abreviació entrada incorrecte"));
             }
         }
 
@@ -110,18 +113,18 @@ namespace Equips
                 string.IsNullOrEmpty(txtPressupost.Text) ||
                 string.IsNullOrEmpty(txtImageLink.Text))
             {
-                ShowAndHideInformationLabel(2, @"La informació del nou equip no és completa");
+                StartCoroutine(ShowAndHideInformationLabel(2, @"La informació del nou equip no és completa"));
             }
             else
             {
                 if (txtABV.Text.Length != 3)
                 {
-                    ShowAndHideInformationLabel(2, @"L'abreviació hauria de tenir exactament 3 caràcters");
+                    StartCoroutine(ShowAndHideInformationLabel(2, @"L'abreviació hauria de tenir exactament 3 caràcters"));
                 }
                 Team t = new Team(txtABV.Text, txtNom.Text, Convert.ToInt32(txtPressupost.Text), txtImageLink.Text);
                 if (dao.GetAll().Contains(t))
                 {
-                    ShowAndHideInformationLabel(2, $@"L'equip amb l'abreviació {txtABV.Text} ja existeix");
+                    StartCoroutine(ShowAndHideInformationLabel(2, $@"L'equip amb l'abreviació {txtABV.Text} ja existeix"));
                 }
                 else
                 { 
@@ -138,13 +141,13 @@ namespace Equips
         {
             if (dao.Delete(txtABV.Text))
             {
-                ShowAndHideInformationLabel(2, "Equip eliminat correctament");
+                StartCoroutine(ShowAndHideInformationLabel(2, "Equip eliminat correctament"));
                 btnLoadAllTeams_Click(sender, e);
                 Neteja();
             }
             else
             {
-                ShowAndHideInformationLabel(2, "L'equip no s'ha pogut eliminar");
+                StartCoroutine(ShowAndHideInformationLabel(2, "L'equip no s'ha pogut eliminar"));
             }
         }
 
@@ -157,7 +160,7 @@ namespace Equips
         private void mnuOpenExplorerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog dialog = new OpenFileDialog();
-            dialog.Filter = "Text files | *.msg;*.csv"; // file types, that will be allowed to upload
+            dialog.Filter = "Text files | *.txt;*.csv"; // file types, that will be allowed to upload
             dialog.Multiselect = false; // allow/deny user to upload more than one file at a time
             if (dialog.ShowDialog() == DialogResult.OK) // if user clicked OK
             {
@@ -175,24 +178,18 @@ namespace Equips
                             {
                                 sp = line.Split(";");
                             }
-                            try
-                            {
-                                if (sp.Length != 4) throw new Exception("Wrong csv file splitting.");
-                                while (sp[3][^1] == ';')
-                                    sp[3] = sp[3].Remove(sp[3].Length - 2, 1);
-                                Team t = new Team(sp[1], sp[0], Convert.ToInt32(sp[2]), sp[3]);
-                                dao.Save(t);
-                            }
-                            catch (Exception exception)
-                            {
-                                throw;
-                            }
+
+                            if (sp.Length != 4) throw new Exception("Wrong csv file splitting.");
+                            while (sp[3][^1] == ';')
+                                sp[3] = sp[3].Remove(sp[3].Length - 2, 1);
+                            Team t = new(sp[1], sp[0], Convert.ToInt32(sp[2]), sp[3]);
+                            dao.Save(t);
                             line = sr.ReadLine();
                         }
                     }
                     catch (Exception exception)
                     {
-                        ShowAndHideInformationLabel(5, exception.Message + "\n" + line);
+                        StartCoroutine(ShowAndHideInformationLabel(5, exception.Message + "\n" + line));
                     }
                 }
                 btnLoadAllTeams_Click(sender, e);
@@ -214,11 +211,11 @@ namespace Equips
             Neteja();
         }
 
-        private async Task ShowAndHideInformationLabel(int s, string msg)
+        private IEnumerator<ICoroutinePause> ShowAndHideInformationLabel(int s, string msg)
         {
             lblInformation.Text = msg;
             lblInformation.Visible = true;
-            await Task.Delay(s * 1000);
+            yield return new WaitForTime(s);
             lblInformation.Visible = false;
         }
 
