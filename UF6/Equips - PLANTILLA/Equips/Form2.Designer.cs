@@ -32,47 +32,66 @@ namespace Equips
         {
             dwConnection = new ComboBox();
             btnConnect = new Button();
+            lblInformation = new Label();
             SuspendLayout();
             // 
             // dwConnection
             // 
-            dwConnection.BackColor = SystemColors.Menu;
+            dwConnection.BackColor = SystemColors.ActiveBorder;
+            dwConnection.DisplayMember = "0";
             dwConnection.DropDownStyle = ComboBoxStyle.DropDownList;
             dwConnection.FormattingEnabled = true;
-            dwConnection.Items.AddRange(new object[] { DataSource.MySQL, DataSource.XML });
-            dwConnection.Location = new Point(150, 82);
+            dwConnection.Location = new Point(12, 12);
             dwConnection.Name = "dwConnection";
-            dwConnection.Size = new Size(131, 23);
+            dwConnection.Size = new Size(167, 23);
             dwConnection.Sorted = true;
             dwConnection.TabIndex = 0;
+            dwConnection.ValueMember = "0";
             // 
             // btnConnect
             // 
-            btnConnect.Location = new Point(150, 138);
+            btnConnect.Location = new Point(12, 68);
             btnConnect.Name = "btnConnect";
-            btnConnect.Size = new Size(131, 23);
+            btnConnect.Size = new Size(167, 23);
             btnConnect.TabIndex = 1;
             btnConnect.Text = "Start Connection";
             btnConnect.UseVisualStyleBackColor = true;
             btnConnect.Click += btnConnect_Click;
             // 
+            // lblInformation
+            // 
+            lblInformation.AutoSize = true;
+            lblInformation.ForeColor = Color.Red;
+            lblInformation.Location = new Point(15, 43);
+            lblInformation.Name = "lblInformation";
+            lblInformation.Size = new Size(164, 15);
+            lblInformation.TabIndex = 2;
+            lblInformation.Text = "Select one type of connection";
+            lblInformation.TextAlign = ContentAlignment.MiddleCenter;
+            lblInformation.Visible = false;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(462, 261);
+            BackColor = SystemColors.Window;
+            ClientSize = new Size(191, 107);
+            Controls.Add(lblInformation);
             Controls.Add(btnConnect);
             Controls.Add(dwConnection);
+            MaximumSize = new Size(207, 146);
             Name = "Form2";
-            Text = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "DB Select";
             Load += Form2_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private ComboBox dwConnection;
         private Button btnConnect;
+        private Label lblInformation;
     }
 }
