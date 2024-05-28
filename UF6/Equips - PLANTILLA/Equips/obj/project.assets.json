@@ -1830,19 +1830,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TiaSanchez\\.nuget\\packages\\": {}
+    "C:\\Users\\aitorsansal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Equips.csproj",
+      "projectUniqueName": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Equips.csproj",
       "projectName": "Equips",
-      "projectPath": "D:\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Equips.csproj",
-      "packagesPath": "C:\\Users\\TiaSanchez\\.nuget\\packages\\",
-      "outputPath": "D:\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\obj\\",
+      "projectPath": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\Equips.csproj",
+      "packagesPath": "C:\\Users\\aitorsansal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aitorsansal\\DAM1\\Dam1_Programacio\\UF6\\Equips - PLANTILLA\\Equips\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\TiaSanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aitorsansal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1850,6 +1855,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1862,6 +1868,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1896,7 +1907,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

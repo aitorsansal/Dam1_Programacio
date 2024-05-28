@@ -11,12 +11,14 @@ namespace Equips
     {
         private IDAO<Team> dao;
         public frmMain() :this(DataSource.XML){}
+        private Task? lblActive;
 
         public frmMain(DataSource ds)
         {
             dao = DAOTeamFactory<Team>.CreateDAOTeamInstance(ds);
             InitializeComponent();
             Text += $@" Connected with {ds}";
+            lblActive = null;
         }
 
         private void Neteja()
@@ -58,7 +60,7 @@ namespace Equips
         {
             if (!string.IsNullOrEmpty(txtABV.Text) && txtABV.Text.Length == 3)
             {
-                Team t = dao.GetValue(txtABV.Text);
+                Team? t = dao.GetValue(txtABV.Text);
                 if (t is not null)
                 {
                     txtNom.Text = t.Name;
@@ -71,7 +73,9 @@ namespace Equips
                 }
                 else
                 {
-                    StartCoroutine(ShowAndHideInformationLabel(2, @"No existeix l'equip sol·licitat"));
+                    if(lblActive is null || lblActive.IsCompleted)
+                        lblActive.Dispose();
+                    lblActive = ShowAndHideInformationLabel(2, @"No existeix l'equip sol·licitat");
                 }
             }
             else if (dgvEquips.GetCellCount(DataGridViewElementStates.Selected) <= 1)
@@ -91,7 +95,9 @@ namespace Equips
             }
             else
             {
-                StartCoroutine(ShowAndHideInformationLabel(2, @"Abreviació entrada incorrecte"));
+                if (lblActive is not null && lblActive.IsCompleted)
+                    lblActive.Dispose();
+                lblActive = ShowAndHideInformationLabel(2, @"Abreviació entrada incorrecte");
             }
         }
 
@@ -113,18 +119,24 @@ namespace Equips
                 string.IsNullOrEmpty(txtPressupost.Text) ||
                 string.IsNullOrEmpty(txtImageLink.Text))
             {
-                StartCoroutine(ShowAndHideInformationLabel(2, @"La informació del nou equip no és completa"));
+                if (lblActive is not null && lblActive.IsCompleted)
+                    lblActive.Dispose();
+                lblActive = ShowAndHideInformationLabel(2, @"La informació del nou equip no és completa");
             }
             else
             {
                 if (txtABV.Text.Length != 3)
                 {
-                    StartCoroutine(ShowAndHideInformationLabel(2, @"L'abreviació hauria de tenir exactament 3 caràcters"));
+                    if (lblActive is not null || !lblActive.IsCompleted)
+                        lblActive.Dispose();;
+                    lblActive = ShowAndHideInformationLabel(2, @"L'abreviació hauria de tenir exactament 3 caràcters");
                 }
                 Team t = new Team(txtABV.Text, txtNom.Text, Convert.ToInt32(txtPressupost.Text), txtImageLink.Text);
                 if (dao.GetAll().Contains(t))
                 {
-                    StartCoroutine(ShowAndHideInformationLabel(2, $@"L'equip amb l'abreviació {txtABV.Text} ja existeix"));
+                    if (lblActive is not null && lblActive.IsCompleted)
+                        lblActive.Dispose();
+                    lblActive = ShowAndHideInformationLabel(2, $@"L'equip amb l'abreviació {txtABV.Text} ja existeix");
                 }
                 else
                 { 
@@ -135,19 +147,21 @@ namespace Equips
         }
 
 
-
-
         private void btnDeleteTeam_Click(object sender, EventArgs e)
         {
             if (dao.Delete(txtABV.Text))
             {
-                StartCoroutine(ShowAndHideInformationLabel(2, "Equip eliminat correctament"));
+                if (lblActive is not null && lblActive.IsCompleted)
+                    lblActive.Dispose();
+                lblActive = ShowAndHideInformationLabel(2, "Equip eliminat correctament");
                 btnLoadAllTeams_Click(sender, e);
                 Neteja();
             }
             else
             {
-                StartCoroutine(ShowAndHideInformationLabel(2, "L'equip no s'ha pogut eliminar"));
+                if (lblActive is not null && lblActive.IsCompleted)
+                    lblActive.Dispose();
+                lblActive = ShowAndHideInformationLabel(2, "L'equip no s'ha pogut eliminar");
             }
         }
 
@@ -189,7 +203,9 @@ namespace Equips
                     }
                     catch (Exception exception)
                     {
-                        StartCoroutine(ShowAndHideInformationLabel(5, exception.Message + "\n" + line));
+                        if (lblActive is not null && lblActive.IsCompleted)
+                            lblActive.Dispose();
+                        lblActive = ShowAndHideInformationLabel(5, exception.Message + "\n" + line);
                     }
                 }
                 btnLoadAllTeams_Click(sender, e);
@@ -211,12 +227,13 @@ namespace Equips
             Neteja();
         }
 
-        private IEnumerator<ICoroutinePause> ShowAndHideInformationLabel(int s, string msg)
+        private async Task? ShowAndHideInformationLabel(int s, string msg)
         {
             lblInformation.Text = msg;
             lblInformation.Visible = true;
-            yield return new WaitForTime(s);
+            await Task.Delay(s * 1000);
             lblInformation.Visible = false;
+            lblActive = null;
         }
 
     }
